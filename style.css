@@ -1,0 +1,33 @@
+html, body{
+  margin: 0;
+  height: 100%
+}
+
+path,
+line {
+  fill: none;
+  stroke: green;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+g.tick text{
+  font-size: 12px;
+  fill: black;
+}
+
+rect.bar {
+  fill: steelblue;
+}
+
+rect.bar:hover {
+  fill: blue;
+}
+
+text.title {
+  font: bold 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+text.axisTitle {
+  font: bold 15px sans-serif;
+}
