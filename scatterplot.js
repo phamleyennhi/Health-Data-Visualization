@@ -1,47 +1,20 @@
 var parseYear = d3.timeParse("%Y");
 
 d3.json("data2.json").get(function(error, data){
-	
-	//wrap function
-	function wrap(text, width) {
-	  text.each(function() {
-	    var text = d3.select(this),
-	        words = text.text().split(/\s+/).reverse(),
-	        word,
-	        line = [],
-	        lineNumber = 0,
-	        lineHeight = 1.1, // ems
-	        y = text.attr("y"),
-	        dy = parseFloat(text.attr("dy")),
-	        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-	    while (word = words.pop()) {
-	      line.push(word);
-	      tspan.text(line.join(" "));
-	      if (tspan.node().getComputedTextLength() > width) {
-	        line.pop();
-	        tspan.text(line.join(" "));
-	        line = [word];
-	        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-	      }
-	    }
-	  });
-	}
-
 	var height = window.innerHeight/2;
 	var width = window.innerWidth/2;
 	var margin = {left: 100, right: 50, top: 40, bottom: 0};
 
+
 	var infoData = [];
-	for (var i = 1000; i <= 1061; i++){
+	for (var i = 0; i < data["data"].length; i++){
 		infoData.push({year: parseYear(data["data"][i][8]), gender: data["data"][i][10], age: Number(data["data"][i][11])});
 	}
-	// console.log(infoData);
+
 
 	var max = d3.max(infoData, function(d){ return d.age; });
 	var minYear = d3.min(infoData, function(d){ return d.year; });
 	var maxYear = d3.max(infoData, function(d){ return d.year; });
-	// console.log(maxYear);
-
 
 	var y = d3.scaleLinear()
 			.domain([0, max])
@@ -51,6 +24,7 @@ d3.json("data2.json").get(function(error, data){
 				.domain([minYear, maxYear])
 				.range([0, width]);
 
+	var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 	var yAxis = d3.axisLeft(y).ticks(10).tickPadding(5).tickSize(10);
 	var xAxis = d3.axisBottom(x);
@@ -61,16 +35,15 @@ d3.json("data2.json").get(function(error, data){
 	var chartGroup = svg.append("g")
 						.attr("transform", "translate("+margin.left+", "+margin.top+")");
 
-	var line = d3.line()
-				.x(function(d){ return x(d.year); })
-				.y(function(d){ return y(d.age); });
 
-	//zoom function
-	chartGroup.call(d3.zoom().scaleExtent([0.8, 2]).on("zoom", function(){
-	    chartGroup.attr("transform", d3.event.transform);
-	}));
+	 chartGroup.selectAll(".dot").data(infoData)
+    			.enter().append("circle")
+      			.attr("class", "dot")
+      			.attr("cx", function(d) { return x(d.year); })
+      			.attr("cy", function(d) { return y(d.age); })
+      			.attr("r", 3.5)
+      			.style("fill", function(d) { return color(d.gender); });
 
-	chartGroup.append("path").attr("d", line(infoData));
 
     chartGroup.append("text")  
 		  .attr("class", "axisTitle")           
@@ -92,15 +65,29 @@ d3.json("data2.json").get(function(error, data){
 	chartGroup.append("text")
       .attr("class", "title")
       .attr("y", -15)
-      .text("Male life expectancy in the United States during 1955-2017");
+      .text("Life expectancy in the United States during 1955-2017");
 
-    chartGroup.append("rect")
-		      .attr("x", width - 18)
-		      .attr("y", height - 20)
-		      .attr("width", 18)
-		      .attr("height", 18)
-		      .style("fill", );
+
+    var gender = svg.selectAll(".gender")
+      				.data(color.domain())
+    				.enter().append("g")
+      				.attr("class", "gender")
+      				.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+    gender.append("rect")
+      .attr("x", width + 50)
+      .attr("y", height - 40)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  	gender.append("text")
+      .attr("x", width + 40)
+      .attr("y", height - 33)
+      .attr("dy", ".35em")
+      .attr("font-size", "20px")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
 
 	chartGroup.append("g").attr("class", "x axis").attr("transform", "translate(0, "+height+")").call(xAxis);
 	chartGroup.append("g").attr("class", "y axis").call(yAxis);
-});
+})
