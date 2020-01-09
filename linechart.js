@@ -92,7 +92,7 @@ d3.json("data2.json").get(function(error, data){
 	chartGroup.append("text")
       .attr("class", "title")
       .attr("y", -15)
-      .text("Mortality Data in the United States during 1955-2017");
+      .text("Life expectancy in the United States during 1955-2017");
 
 	chartGroup.append("g").attr("class", "x axis").attr("transform", "translate(0, "+height+")").call(xAxis);
 	chartGroup.append("g").attr("class", "y axis").call(yAxis);
