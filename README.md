@@ -8,4 +8,4 @@ I created a bar chart to represent the data on main health causes in the US: x-a
 
 I also created a line chart to represent the life expectancy of male and a scatterplot to represent the life expectancy in general in the US during the period 1955-2017. The json data file data2.json source is from "https://data.cdc.gov/api/views/w9j2-ggv5/rows.json?accessType=DOWNLOAD"
 
-
+Last but not least, inspired by the famous interactive chart by Hans Rosling in a TED talk I watched a long time ago, I created the bubble chart in D3.jsshowing the wealth and the health of nations around the world. Data is stored in data3.json.
