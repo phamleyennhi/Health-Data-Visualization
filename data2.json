@@ -1,0 +1,1559 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "w9j2-ggv5",
+      "name" : "NCHS - Death rates and life expectancy at birth",
+      "attribution" : "National Center for Health Statistics",
+      "averageRating" : 0,
+      "category" : "NCHS",
+      "createdAt" : 1436463600,
+      "description" : "This dataset of U.S. mortality trends since 1900 highlights the differences in age-adjusted death rates and life expectancy at birth by race and sex.\n\nAge-adjusted death rates (deaths per 100,000) after 1998 are calculated based on the 2000 U.S. standard population. Populations used for computing death rates for 2011–2017 are postcensal estimates based on the 2010 census, estimated as of July 1, 2010. Rates for census years are based on populations enumerated in the corresponding censuses. Rates for noncensus years between 2000 and 2010 are revised using updated intercensal population estimates and may differ from rates previously published. Data on age-adjusted death rates prior to 1999 are taken from historical data (see References below).\n\nLife expectancy data are available up to 2017. Due to changes in categories of race used in publications, data are not available for the black population consistently before 1968, and not at all before 1960. More information on historical data on age-adjusted death rates is available at https://www.cdc.gov/nchs/nvss/mortality/hist293.htm.\n\nSOURCES\n\nCDC/NCHS, National Vital Statistics System, historical data, 1900-1998 (see https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm); CDC/NCHS, National Vital Statistics System, mortality data (see http://www.cdc.gov/nchs/deaths.htm); and CDC WONDER (see http://wonder.cdc.gov).\n\nREFERENCES\n\n1. National Center for Health Statistics, Data Warehouse. Comparability of cause-of-death between ICD revisions. 2008. Available from: http://www.cdc.gov/nchs/nvss/mortality/comparability_icd.htm.\n\n2. National Center for Health Statistics. Vital statistics data available. Mortality multiple cause files. Hyattsville, MD: National Center for Health Statistics. Available from: https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm.\n\n3. Kochanek KD, Murphy SL, Xu JQ, Arias E. Deaths: Final data for 2017. National Vital Statistics Reports; vol 68 no 9. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_09-508.pdf.\n\n4. Arias E, Xu JQ. United States life tables, 2017. National Vital Statistics Reports; vol 68 no 7. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_07-508.pdf.\n\n5. National Center for Health Statistics. Historical Data, 1900-1998. 2009. Available from: https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm.",
+      "displayType" : "table",
+      "downloadCount" : 62081,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1528117254,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 26694138,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1504105286,
+      "publicationGroup" : 3466916,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1570577236,
+      "rowsUpdatedBy" : "ki96-txhe",
+      "tableId" : 14432238,
+      "totalTimesRated" : 0,
+      "viewCount" : 13810,
+      "viewLastModified" : 1570580972,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1504105286,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 740919,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1504105286,
+        "workflowId" : 2100,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "ki96-txhe",
+          "displayName" : "NCHS"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 318015785,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29634418,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "2017",
+          "non_null" : 1044,
+          "average" : "1957.5",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1990",
+            "count" : "9"
+          }, {
+            "item" : "2014",
+            "count" : "9"
+          }, {
+            "item" : "1929",
+            "count" : "9"
+          }, {
+            "item" : "2005",
+            "count" : "9"
+          }, {
+            "item" : "1914",
+            "count" : "9"
+          }, {
+            "item" : "1947",
+            "count" : "9"
+          }, {
+            "item" : "1948",
+            "count" : "9"
+          }, {
+            "item" : "1957",
+            "count" : "9"
+          }, {
+            "item" : "1973",
+            "count" : "9"
+          }, {
+            "item" : "1983",
+            "count" : "9"
+          }, {
+            "item" : "2002",
+            "count" : "9"
+          }, {
+            "item" : "1945",
+            "count" : "9"
+          }, {
+            "item" : "1904",
+            "count" : "9"
+          }, {
+            "item" : "1992",
+            "count" : "9"
+          }, {
+            "item" : "1971",
+            "count" : "9"
+          }, {
+            "item" : "1965",
+            "count" : "9"
+          }, {
+            "item" : "2017",
+            "count" : "9"
+          }, {
+            "item" : "1964",
+            "count" : "9"
+          }, {
+            "item" : "1985",
+            "count" : "9"
+          }, {
+            "item" : "1932",
+            "count" : "9"
+          } ],
+          "smallest" : "1900",
+          "not_null" : "1062",
+          "sum" : "2043630",
+          "cardinality" : "118"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 318015783,
+        "name" : "Race",
+        "dataTypeName" : "text",
+        "fieldName" : "race",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29634416,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "White",
+          "non_null" : 1044,
+          "null" : "0",
+          "top" : [ {
+            "item" : "All Races",
+            "count" : "354"
+          }, {
+            "item" : "Black",
+            "count" : "354"
+          }, {
+            "item" : "White",
+            "count" : "354"
+          } ],
+          "smallest" : "All Races",
+          "not_null" : "1062",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 318015784,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "fieldName" : "sex",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29634417,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : "Male",
+          "non_null" : 1044,
+          "null" : "0",
+          "top" : [ {
+            "item" : "Female",
+            "count" : "354"
+          }, {
+            "item" : "Both Sexes",
+            "count" : "354"
+          }, {
+            "item" : "Male",
+            "count" : "354"
+          } ],
+          "smallest" : "Both Sexes",
+          "not_null" : "1062",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 318015786,
+        "name" : "Average Life Expectancy (Years)",
+        "dataTypeName" : "number",
+        "fieldName" : "average_life_expectancy",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29634419,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "81.4",
+          "non_null" : 1035,
+          "average" : "64.11729468599034",
+          "null" : "0",
+          "top" : [ {
+            "item" : "66.8",
+            "count" : "11"
+          }, {
+            "item" : "71.1",
+            "count" : "9"
+          }, {
+            "item" : "74.7",
+            "count" : "9"
+          }, {
+            "item" : "73.9",
+            "count" : "9"
+          }, {
+            "item" : "69.5",
+            "count" : "8"
+          }, {
+            "item" : "75.5",
+            "count" : "8"
+          }, {
+            "item" : "78.7",
+            "count" : "8"
+          }, {
+            "item" : "78.9",
+            "count" : "8"
+          }, {
+            "item" : "75.3",
+            "count" : "8"
+          }, {
+            "item" : "72.0",
+            "count" : "8"
+          }, {
+            "item" : "71.4",
+            "count" : "8"
+          }, {
+            "item" : "66.6",
+            "count" : "8"
+          }, {
+            "item" : "78.5",
+            "count" : "7"
+          }, {
+            "item" : "73.4",
+            "count" : "7"
+          }, {
+            "item" : "72.2",
+            "count" : "7"
+          }, {
+            "item" : "52.5",
+            "count" : "7"
+          }, {
+            "item" : "78.8",
+            "count" : "7"
+          }, {
+            "item" : "70.2",
+            "count" : "7"
+          }, {
+            "item" : "64.5",
+            "count" : "7"
+          }, {
+            "item" : "76.7",
+            "count" : "7"
+          } ],
+          "smallest" : "29.1",
+          "not_null" : "1062",
+          "sum" : "66361.4",
+          "cardinality" : "379"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "1",
+          "align" : "right"
+        }
+      }, {
+        "id" : 318015787,
+        "name" : "Age-adjusted Death Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "mortality",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29634420,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "3845.7",
+          "non_null" : 1044,
+          "average" : "1614.076819923372",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1570.4",
+            "count" : "2"
+          }, {
+            "item" : "723.9",
+            "count" : "2"
+          }, {
+            "item" : "907.1",
+            "count" : "2"
+          }, {
+            "item" : "1766.9",
+            "count" : "2"
+          }, {
+            "item" : "1391.1",
+            "count" : "2"
+          }, {
+            "item" : "1532.0",
+            "count" : "2"
+          }, {
+            "item" : "1726.6",
+            "count" : "2"
+          }, {
+            "item" : "1556.8",
+            "count" : "2"
+          }, {
+            "item" : "1109.7",
+            "count" : "2"
+          }, {
+            "item" : "713.3",
+            "count" : "2"
+          }, {
+            "item" : "2087.0",
+            "count" : "2"
+          }, {
+            "item" : "855.1",
+            "count" : "2"
+          }, {
+            "item" : "731.9",
+            "count" : "2"
+          }, {
+            "item" : "925.8",
+            "count" : "2"
+          }, {
+            "item" : "725.3",
+            "count" : "2"
+          }, {
+            "item" : "1309.0",
+            "count" : "2"
+          }, {
+            "item" : "1332.5",
+            "count" : "2"
+          }, {
+            "item" : "1580.0",
+            "count" : "2"
+          }, {
+            "item" : "1049.5",
+            "count" : "2"
+          }, {
+            "item" : "2254.1",
+            "count" : "2"
+          } ],
+          "smallest" : "616.7",
+          "not_null" : "1062",
+          "sum" : "1685096.2",
+          "cardinality" : "1032"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "1",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "cdcinfo@cdc.gov",
+            "Contact Name" : "National Center for Health Statistics",
+            "Program Code" : "009:020",
+            "Publisher" : "National Center for Health Statistics",
+            "Bureau Code" : "009:00"
+          }
+        },
+        "rowLabel" : "Population",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "ki96-txhe",
+        "displayName" : "NCHS",
+        "profileImageUrlLarge" : "/api/users/ki96-txhe/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ki96-txhe/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ki96-txhe/profile_images/TINY",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ki96-txhe",
+        "displayName" : "NCHS",
+        "profileImageUrlLarge" : "/api/users/ki96-txhe/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ki96-txhe/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ki96-txhe/profile_images/TINY",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "death rates", "life expectancy", "mortality", "united states", "nchs" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-m96n~bffy~w44p", "00000000-0000-0000-A06D-467FDAF7F4DC", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "All Races", "Both Sexes", "47.3", "2518.0" ]
+, [ "row-axrk~u8kv~vnn8", "00000000-0000-0000-D840-3054E8ED094F", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "All Races", "Both Sexes", "49.1", "2473.1" ]
+, [ "row-uejc.5zvs.e3va", "00000000-0000-0000-D01C-E5AA0ED1237C", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "All Races", "Both Sexes", "51.5", "2301.3" ]
+, [ "row-c6iy~gvnu.avqi", "00000000-0000-0000-55DA-80CB698DEFC0", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "All Races", "Both Sexes", "50.5", "2379.0" ]
+, [ "row-we9r-cqyr.dqqp", "00000000-0000-0000-324A-5B455D666AD4", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "All Races", "Both Sexes", "47.6", "2502.5" ]
+, [ "row-iawy~4scb.awep", "00000000-0000-0000-AE24-5240054F47B0", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "All Races", "Both Sexes", "48.7", "2423.7" ]
+, [ "row-r4d6~259g_9pff", "00000000-0000-0000-1843-4FE72ED20D9C", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "All Races", "Both Sexes", "48.7", "2399.0" ]
+, [ "row-tjww_e364_5ehm", "00000000-0000-0000-21A8-179B1099119D", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "All Races", "Both Sexes", "47.6", "2494.4" ]
+, [ "row-d7df_e9bf~nmg5", "00000000-0000-0000-FB13-D94BC18598B5", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "All Races", "Both Sexes", "51.1", "2298.9" ]
+, [ "row-9i6x-kqnd.p5cn", "00000000-0000-0000-F55F-7CE6931A3181", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "All Races", "Both Sexes", "52.1", "2249.2" ]
+, [ "row-25gx~c36k.wecf", "00000000-0000-0000-B78C-259501B9DEC6", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "All Races", "Both Sexes", "50.0", "2317.2" ]
+, [ "row-zbeq.hqdc.cp68", "00000000-0000-0000-D04A-182E313C9D8A", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "All Races", "Both Sexes", "52.6", "2245.4" ]
+, [ "row-5rd4~jqdg~5wj6", "00000000-0000-0000-8CC5-810C2480933B", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "All Races", "Both Sexes", "53.5", "2211.7" ]
+, [ "row-3pgt~767u_bufi", "00000000-0000-0000-96DD-F3E55A1D4CF2", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "All Races", "Both Sexes", "52.5", "2206.5" ]
+, [ "row-69bn-5asx.8g55", "00000000-0000-0000-A287-1A036C87DF7C", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "All Races", "Both Sexes", "54.2", "2149.3" ]
+, [ "row-ggw6-b2k4~r94k", "00000000-0000-0000-D053-5A10E4ACC86C", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "All Races", "Both Sexes", "54.5", "2174.8" ]
+, [ "row-k4fb.7rxg~hvhd", "00000000-0000-0000-8707-5E7BD4144CE1", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "All Races", "Both Sexes", "51.7", "2266.6" ]
+, [ "row-5map-zd9f-wzpi", "00000000-0000-0000-7E2D-F6A8711F62F4", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "All Races", "Both Sexes", "50.9", "2275.9" ]
+, [ "row-2ar6_6b46~zzxe", "00000000-0000-0000-0A51-98E75645E390", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "All Races", "Both Sexes", "39.1", "2541.6" ]
+, [ "row-4f8f-wvgi-9e58", "00000000-0000-0000-BAE5-5BDECEA58DF0", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "All Races", "Both Sexes", "54.7", "2057.2" ]
+, [ "row-hg79~qv7b_basz", "00000000-0000-0000-3808-178E752EA2A9", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "All Races", "Both Sexes", "54.1", "2147.1" ]
+, [ "row-viv8-fira_a3kk", "00000000-0000-0000-569D-0157A2BDC6D5", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "All Races", "Both Sexes", "60.8", "1958.2" ]
+, [ "row-48qp.hhat-zpxj", "00000000-0000-0000-34BA-6F35EC059020", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "All Races", "Both Sexes", "59.6", "2049.5" ]
+, [ "row-mj2f~dkte.h9t4", "00000000-0000-0000-634E-3F7644A5ADFD", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "All Races", "Both Sexes", "57.2", "2141.4" ]
+, [ "row-2gd5~a9pp~yg2w", "00000000-0000-0000-F5DC-B92BA0916C9C", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "All Races", "Both Sexes", "59.7", "2038.0" ]
+, [ "row-hvkr~y2x7-hq68", "00000000-0000-0000-5B63-0A751267C7B3", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "All Races", "Both Sexes", "59.0", "2068.7" ]
+, [ "row-x42a.amxv_v2dx", "00000000-0000-0000-7C2B-52FE19E6DC3E", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "All Races", "Both Sexes", "56.7", "2146.2" ]
+, [ "row-kxkz-3bdx-amhg", "00000000-0000-0000-B776-D1B371145008", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "All Races", "Both Sexes", "60.4", "1989.5" ]
+, [ "row-yark~wx9v.u68t", "00000000-0000-0000-47D8-98932FEBBF10", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "All Races", "Both Sexes", "56.8", "2124.6" ]
+, [ "row-x9hh.jcbz~kqzm", "00000000-0000-0000-0EB7-D44696CDA927", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "All Races", "Both Sexes", "57.1", "2081.2" ]
+, [ "row-ncuw.evbv.3kw9", "00000000-0000-0000-4F0A-046E599E36B9", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "All Races", "Both Sexes", "59.7", "1943.8" ]
+, [ "row-dims.w2ct-fnxg", "00000000-0000-0000-939B-49EB6E731028", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "All Races", "Both Sexes", "61.1", "1895.1" ]
+, [ "row-9p22~q7pj.gyme", "00000000-0000-0000-CEB2-41A5DE98915A", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "All Races", "Both Sexes", "62.1", "1897.1" ]
+, [ "row-6fxc-nd2u-6bjk", "00000000-0000-0000-9AF9-8EE904002FE7", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "All Races", "Both Sexes", "63.3", "1850.1" ]
+, [ "row-db3y_q65y_duj5", "00000000-0000-0000-D453-6DD313D0E929", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "All Races", "Both Sexes", "61.1", "1888.2" ]
+, [ "row-2a2n~yhvu_z5ea", "00000000-0000-0000-CA73-C32D8BB01068", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "All Races", "Both Sexes", "61.7", "1860.1" ]
+, [ "row-q5st_fg69~babx", "00000000-0000-0000-E9F3-0652AD6CF3C3", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "All Races", "Both Sexes", "58.5", "1963.7" ]
+, [ "row-zbu4~29jd-9vqq", "00000000-0000-0000-C555-9EA41188610C", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "All Races", "Both Sexes", "60.0", "1882.6" ]
+, [ "row-qw3y~5bsv~v7wu", "00000000-0000-0000-C0EB-324F1824192E", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "All Races", "Both Sexes", "63.5", "1764.3" ]
+, [ "row-r8ym.yahq~hb7y", "00000000-0000-0000-8D0F-4AC127EC7BE3", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "All Races", "Both Sexes", "63.7", "1766.9" ]
+, [ "row-hmhb~zihr_uwbb", "00000000-0000-0000-4A42-5B202B410C10", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "All Races", "Both Sexes", "62.9", "1785.0" ]
+, [ "row-nazc~wujr.rtpy", "00000000-0000-0000-08D3-6B54BA8025AB", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "All Races", "Both Sexes", "64.8", "1694.6" ]
+, [ "row-y7pn_z7nj.acr3", "00000000-0000-0000-E574-5500EF345ED3", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "All Races", "Both Sexes", "66.2", "1635.8" ]
+, [ "row-tsz7_aa5n~s58a", "00000000-0000-0000-50BF-C0825F44D107", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "All Races", "Both Sexes", "63.3", "1702.4" ]
+, [ "row-7a4i.mt6e-xkqg", "00000000-0000-0000-F726-83CF2034BFBC", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "All Races", "Both Sexes", "65.2", "1618.5" ]
+, [ "row-k48t_9s4d_uhe8", "00000000-0000-0000-808A-BB4AECEA6754", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "All Races", "Both Sexes", "65.9", "1575.4" ]
+, [ "row-des2_kkxp-2pzy", "00000000-0000-0000-7E48-369DC0C85DED", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "All Races", "Both Sexes", "66.7", "1529.7" ]
+, [ "row-62ws-rbbm-fuxv", "00000000-0000-0000-DBBA-E72B2C372A79", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "All Races", "Both Sexes", "66.8", "1532.0" ]
+, [ "row-cm6g_byjs.5mwt", "00000000-0000-0000-55F0-7CFB2B5E43B0", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "All Races", "Both Sexes", "67.2", "1501.7" ]
+, [ "row-idbn_uive~eztj", "00000000-0000-0000-4BEE-A0BDA233E5BC", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "All Races", "Both Sexes", "68.0", "1457.3" ]
+, [ "row-rwkn-vsw3-rcdf", "00000000-0000-0000-697D-F0360C60BCFC", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "All Races", "Both Sexes", "68.2", "1446.0" ]
+, [ "row-j988-5xjs-uyfg", "00000000-0000-0000-6E4D-5C08CC7218AB", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "All Races", "Both Sexes", "68.4", "1423.5" ]
+, [ "row-hpnj-wtm8.qma4", "00000000-0000-0000-98F2-11D2F4F42D9F", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "All Races", "Both Sexes", "68.6", "1394.6" ]
+, [ "row-akr2~kqcg.bryp", "00000000-0000-0000-2CA4-7D4F2819E3C7", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "All Races", "Both Sexes", "68.8", "1385.6" ]
+, [ "row-2i7g_vinu-meta", "00000000-0000-0000-D1C9-A9E31F4FD29A", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "All Races", "Both Sexes", "69.6", "1314.8" ]
+, [ "row-g3i2.6tst_4nbn", "00000000-0000-0000-AEA8-0E6DC9DF98AC", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "All Races", "Both Sexes", "69.6", "1332.3" ]
+, [ "row-fbxc-upwj_iekx", "00000000-0000-0000-05C6-CAEC24D9AE51", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "All Races", "Both Sexes", "69.7", "1333.7" ]
+, [ "row-i9c5~hakr.w33e", "00000000-0000-0000-EB14-ADF4194E4CBB", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "All Races", "Both Sexes", "69.5", "1356.7" ]
+, [ "row-mywn~8k8z.97zd", "00000000-0000-0000-4C8E-5012F33F085D", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "All Races", "Both Sexes", "69.6", "1343.4" ]
+, [ "row-gsvx_uks6~cmyd", "00000000-0000-0000-814C-9C2F00A065BA", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "All Races", "Both Sexes", "69.9", "1317.3" ]
+, [ "row-ppd5.c7qf-2xuf", "00000000-0000-0000-B310-FC3BD3674169", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "All Races", "Both Sexes", "69.7", "1339.2" ]
+, [ "row-yi69_vpca_meqn", "00000000-0000-0000-0B5C-8840FDE20BE5", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "All Races", "Both Sexes", "70.2", "1298.8" ]
+, [ "row-3t83-9pzq_7utn", "00000000-0000-0000-E4B2-9D0BF726A468", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "All Races", "Both Sexes", "70.1", "1323.6" ]
+, [ "row-zdqn.yk9p.eew8", "00000000-0000-0000-1A50-F9ABD5B61C62", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "All Races", "Both Sexes", "69.9", "1346.3" ]
+, [ "row-5vux-a6yk.wdwk", "00000000-0000-0000-5D8C-CF5B92CBDDCA", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "All Races", "Both Sexes", "70.2", "1303.8" ]
+, [ "row-dner-g7wz_znux", "00000000-0000-0000-2D44-3A22D5A79FD3", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "All Races", "Both Sexes", "70.2", "1306.5" ]
+, [ "row-rgvu.qvx5~p47x", "00000000-0000-0000-CD14-BAE291F4B313", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "All Races", "Both Sexes", "70.2", "1309.0" ]
+, [ "row-g4bn~3y3t_wg47", "00000000-0000-0000-9908-623125827259", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "All Races", "Both Sexes", "70.5", "1274.0" ]
+, [ "row-w6bt~fc2v-beas", "00000000-0000-0000-8560-974922F89A42", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "All Races", "Both Sexes", "70.2", "1304.5" ]
+, [ "row-5962-x37q~r5ja", "00000000-0000-0000-9185-1DC3E5EE2381", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "All Races", "Both Sexes", "70.5", "1271.8" ]
+, [ "row-y78k-kdd4-khzp", "00000000-0000-0000-D31A-33E5DA1A7786", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "All Races", "Both Sexes", "70.8", "1222.6" ]
+, [ "row-yq9z.4mjc-sur9", "00000000-0000-0000-8877-D9A94E692911", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "All Races", "Both Sexes", "71.1", "1213.1" ]
+, [ "row-7fdh.pjqd_apyi", "00000000-0000-0000-746A-69875019BF4D", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "All Races", "Both Sexes", "71.2", "1214.8" ]
+, [ "row-8c6m_fgnt_agma", "00000000-0000-0000-3B35-F03F6F8F8D20", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "All Races", "Both Sexes", "71.4", "1201.2" ]
+, [ "row-xb5h.auht.gj48", "00000000-0000-0000-33BB-EA1F66BC9E0B", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "All Races", "Both Sexes", "72.0", "1151.8" ]
+, [ "row-ned7-73b3-m98z", "00000000-0000-0000-4D54-180E6B58A286", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "All Races", "Both Sexes", "72.6", "1094.4" ]
+, [ "row-2fx4_cd4w_eikd", "00000000-0000-0000-AFFE-9DF2EB698D01", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "All Races", "Both Sexes", "72.9", "1084.1" ]
+, [ "row-35m4~2mms_g5zv", "00000000-0000-0000-F63C-C04409F6D39C", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "All Races", "Both Sexes", "73.3", "1051.6" ]
+, [ "row-dvaf_3v3f~nymv", "00000000-0000-0000-0165-F2AC61CA7D3C", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "All Races", "Both Sexes", "73.5", "1043.7" ]
+, [ "row-3hw6.un9i.5auf", "00000000-0000-0000-53A2-2BB69D27BCBF", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "All Races", "Both Sexes", "73.9", "1010.6" ]
+, [ "row-4pbz~cv2c.7hrg", "00000000-0000-0000-462C-797837FC1059", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "All Races", "Both Sexes", "73.7", "1038.7" ]
+, [ "row-u2na-hurx-qtzm", "00000000-0000-0000-B5A9-A7E2817E39B7", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "All Races", "Both Sexes", "74.1", "1007.0" ]
+, [ "row-nany~pfyx-n7im", "00000000-0000-0000-B688-F14905535E60", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "All Races", "Both Sexes", "74.5", "984.9" ]
+, [ "row-daer.unsq_p2f4", "00000000-0000-0000-FF47-DD0A1D565264", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "All Races", "Both Sexes", "74.6", "990.0" ]
+, [ "row-xz3m-7f95_smek", "00000000-0000-0000-0625-08BF01D09FFB", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "All Races", "Both Sexes", "74.7", "982.1" ]
+, [ "row-6456-vv63_96nj", "00000000-0000-0000-A1E8-3E9C226DC0AD", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "All Races", "Both Sexes", "74.7", "987.8" ]
+, [ "row-sk6b~wxnf.zrqc", "00000000-0000-0000-5E65-7B73A258D08A", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "All Races", "Both Sexes", "74.7", "978.4" ]
+, [ "row-wny8.i78x.8bsu", "00000000-0000-0000-F33A-8B641129CC57", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "All Races", "Both Sexes", "74.9", "969.6" ]
+, [ "row-uv4m_ef4p-teik", "00000000-0000-0000-E80D-C36AE8CC5CF1", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "All Races", "Both Sexes", "74.9", "975.1" ]
+, [ "row-396r.w2e9_ez7z", "00000000-0000-0000-C5EF-0E630B6AD138", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "All Races", "Both Sexes", "75.1", "949.9" ]
+, [ "row-awhv-7yyb_5zge", "00000000-0000-0000-2619-7E9C39E0E0F3", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "All Races", "Both Sexes", "75.4", "938.0" ]
+, [ "row-aadc-kd52-n2js", "00000000-0000-0000-767A-3545D8096B23", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "All Races", "Both Sexes", "75.5", "921.9" ]
+, [ "row-i5vy_j9fm~tkss", "00000000-0000-0000-37ED-1419160E44C6", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "All Races", "Both Sexes", "75.8", "905.3" ]
+, [ "row-r5kg.ckd4-8rwa", "00000000-0000-0000-5295-1E099F318F1A", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "All Races", "Both Sexes", "75.5", "925.8" ]
+, [ "row-mk9a.jm2m_aeb5", "00000000-0000-0000-22A1-E4709ECF32E2", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "All Races", "Both Sexes", "75.7", "913.2" ]
+, [ "row-hsxv_z24z_mc8p", "00000000-0000-0000-519F-61A21E51B5EB", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "All Races", "Both Sexes", "75.8", "909.5" ]
+, [ "row-q4bs~kcre~b83q", "00000000-0000-0000-96A0-A304F5B57BCE", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "All Races", "Both Sexes", "76.1", "893.7" ]
+, [ "row-nvdg.hfkf_293b", "00000000-0000-0000-F34C-6D89290CB5B4", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "All Races", "Both Sexes", "76.5", "877.7" ]
+, [ "row-5jhu.yf6r_zsfh", "00000000-0000-0000-B6E6-98663F337C1A", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "All Races", "Both Sexes", "76.7", "870.1" ]
+, [ "row-yk45.xpgh_4sxe", "00000000-0000-0000-3951-3BFA4ACC630A", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "All Races", "Both Sexes", "76.7", "875.6" ]
+, [ "row-2i8t_c395.miuz", "00000000-0000-0000-DD30-62349815E7EB", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "All Races", "Both Sexes", "76.8", "869.0" ]
+, [ "row-qmzk_3ru4_6u6k", "00000000-0000-0000-9D74-C7D1772DD9A9", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "All Races", "Both Sexes", "77.0", "858.8" ]
+, [ "row-dpb2-494s.igxp", "00000000-0000-0000-2E2B-9428D69085CB", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "All Races", "Both Sexes", "77.0", "855.9" ]
+, [ "row-qpaf~zj2x~e75c", "00000000-0000-0000-00C3-BBFBDE0DC8A6", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "All Races", "Both Sexes", "77.6", "843.5" ]
+, [ "row-mgyc-8zkz_ep9m", "00000000-0000-0000-5B85-E18D72649F86", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "All Races", "Both Sexes", "77.5", "813.7" ]
+, [ "row-b63k.m7ge.2287", "00000000-0000-0000-7C63-19AD2565C002", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "All Races", "Both Sexes", "77.6", "815.0" ]
+, [ "row-c9zi_f6f2-p54w", "00000000-0000-0000-49FE-4771CA5FDA9D", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "All Races", "Both Sexes", "77.8", "791.8" ]
+, [ "row-hn5d-7xpi.zjb3", "00000000-0000-0000-A1E3-DAB087B6FD92", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "All Races", "Both Sexes", "78.1", "775.3" ]
+, [ "row-6774-3894~6tg5", "00000000-0000-0000-4171-2015F92CB783", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "All Races", "Both Sexes", "78.2", "774.9" ]
+, [ "row-cbew-t3ci.4dft", "00000000-0000-0000-ED2D-8977F029F321", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "All Races", "Both Sexes", "78.5", "749.6" ]
+, [ "row-jmkg-wa6u~p7ds", "00000000-0000-0000-65AF-6EB15AC61691", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "All Races", "Both Sexes", "78.7", "747.0" ]
+, [ "row-bmk2-u5t9.ub85", "00000000-0000-0000-87BB-7C9C4AB48881", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "All Races", "Both Sexes", "78.7", "741.3" ]
+, [ "row-ff4m~5gge.uhdd", "00000000-0000-0000-1008-F8B22AF22A43", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "All Races", "Both Sexes", "78.8", "732.8" ]
+, [ "row-572g-g49c.auz5", "00000000-0000-0000-23C6-041E42F79E63", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "All Races", "Both Sexes", "78.8", "731.9" ]
+, [ "row-zkrq-eek8~3zgr", "00000000-0000-0000-B6A9-420D4515C346", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "All Races", "Both Sexes", "78.9", "724.6" ]
+, [ "row-b8g9-afpe-trx5", "00000000-0000-0000-F107-24791FD1BE2B", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "All Races", "Both Sexes", "78.7", "733.1" ]
+, [ "row-fa9n.rm3w~d826", "00000000-0000-0000-71C3-7F9BBC7D2108", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "All Races", "Both Sexes", "78.7", "728.8" ]
+, [ "row-zp2b~cnrr-jn3d", "00000000-0000-0000-909D-FBFC2BE70A8C", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "All Races", "Both Sexes", "78.6", "731.9" ]
+, [ "row-3hqc_tci3.b7ic", "00000000-0000-0000-3A71-1A888396B243", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "All Races", "Female", "48.3", "2410.4" ]
+, [ "row-s9mf.2tad.vv4u", "00000000-0000-0000-3FE3-CECF5E213B61", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "All Races", "Female", "50.6", "2350.5" ]
+, [ "row-mbzx~9pic~5tkh", "00000000-0000-0000-3BB5-93B18A346EDB", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "All Races", "Female", "53.4", "2162.8" ]
+, [ "row-zr48.8arp-6wa3", "00000000-0000-0000-EF61-60AFEE9B9205", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "All Races", "Female", "52.0", "2250.6" ]
+, [ "row-34bf~bxui~wgxz", "00000000-0000-0000-D1DC-550E2333A80B", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "All Races", "Female", "49.1", "2358.8" ]
+, [ "row-eens~hm2e_i8cn", "00000000-0000-0000-422E-4BB08F753EF2", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "All Races", "Female", "50.2", "2287.7" ]
+, [ "row-yypr~ahtu.hwhc", "00000000-0000-0000-CE86-C4091DF6F21D", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "All Races", "Female", "50.8", "2244.6" ]
+, [ "row-ise8_k4t6.qsam", "00000000-0000-0000-663B-00F8330D5962", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "All Races", "Female", "49.9", "2327.3" ]
+, [ "row-kcew~ppsk.b7ek", "00000000-0000-0000-0CE1-8C6BCDFAEA67", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "All Races", "Female", "52.8", "2162.3" ]
+, [ "row-z3q3.g582_24qq", "00000000-0000-0000-4DF6-BF509E5C7C03", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "All Races", "Female", "53.8", "2111.5" ]
+, [ "row-pycp~q7i4_jhu5", "00000000-0000-0000-3DCB-BA88A665083F", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "All Races", "Female", "51.8", "2171.3" ]
+, [ "row-z4u6.xdgt-gnft", "00000000-0000-0000-AF18-3E505DBCD714", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "All Races", "Female", "54.4", "2112.1" ]
+, [ "row-zdeu.ugnt_eb7s", "00000000-0000-0000-8636-EB0252B5064D", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "All Races", "Female", "55.9", "2067.2" ]
+, [ "row-tz52_d5yq~82px", "00000000-0000-0000-B4D7-B564388DC044", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "All Races", "Female", "55.0", "2058.1" ]
+, [ "row-mhuk_dqq3.26hd", "00000000-0000-0000-121E-F4B59EEF5E4A", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "All Races", "Female", "56.8", "2009.0" ]
+, [ "row-eina_rxdy-4shq", "00000000-0000-0000-FADC-D3722DC7D513", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "All Races", "Female", "56.8", "2044.3" ]
+, [ "row-nf5a~ughz-whii", "00000000-0000-0000-C558-FED3F20448C6", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "All Races", "Female", "54.3", "2123.3" ]
+, [ "row-edad_bstr~mdtx", "00000000-0000-0000-4E37-9513C59CE57D", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "All Races", "Female", "54.0", "2119.9" ]
+, [ "row-vz2y~crcr_yavx", "00000000-0000-0000-BAC5-32936BEB8B50", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "All Races", "Female", "42.2", "2342.8" ]
+, [ "row-pff2~jak7-k42e", "00000000-0000-0000-852D-337D7EF50721", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "All Races", "Female", "56.0", "1973.1" ]
+, [ "row-fmt3.k2w8~xs5e", "00000000-0000-0000-B57B-C89541B62B08", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "All Races", "Female", "54.6", "2081.3" ]
+, [ "row-e6nj_z6js-5ajt", "00000000-0000-0000-162B-686127D53F9C", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "All Races", "Female", "61.8", "1890.4" ]
+, [ "row-wn79~qutz-xzbn", "00000000-0000-0000-2209-88DC813E9C0D", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "All Races", "Female", "61.0", "1965.1" ]
+, [ "row-3cw9.2zz3~mv48", "00000000-0000-0000-ECA5-94084B75C383", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "All Races", "Female", "58.5", "2050.5" ]
+, [ "row-hw99-c65v-f9dw", "00000000-0000-0000-F120-751989584FAD", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "All Races", "Female", "61.5", "1927.2" ]
+, [ "row-st6g.m4tb~j9dj", "00000000-0000-0000-3B75-59F49374909A", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "All Races", "Female", "60.6", "1957.1" ]
+, [ "row-izi4.kc8y_mm83", "00000000-0000-0000-131E-62D9125F4A48", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "All Races", "Female", "58.0", "2028.0" ]
+, [ "row-z5zw.63v6-6mks", "00000000-0000-0000-C554-E3F56FDDD66B", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "All Races", "Female", "62.1", "1863.8" ]
+, [ "row-rbyr~vku5.zyxw", "00000000-0000-0000-26D3-D44B3137ED9F", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "All Races", "Female", "58.3", "1990.5" ]
+, [ "row-ab68.sjwy.atma", "00000000-0000-0000-09DC-DA0F5CF47284", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "All Races", "Female", "58.7", "1940.9" ]
+, [ "row-a4p6.mii2.iuv4", "00000000-0000-0000-065D-7FDEB50A447B", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "All Races", "Female", "61.6", "1798.3" ]
+, [ "row-mkv4-buma.bk7a", "00000000-0000-0000-25AC-192656EF5FC6", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "All Races", "Female", "63.1", "1743.6" ]
+, [ "row-aeph_greh~v85t", "00000000-0000-0000-BF2C-9500326A567E", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "All Races", "Female", "63.5", "1758.4" ]
+, [ "row-jf6u.q2va_83vt", "00000000-0000-0000-52B3-8938376E290A", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "All Races", "Female", "65.1", "1699.1" ]
+, [ "row-xcev.y8kr-6324", "00000000-0000-0000-50D2-ECC3E50E5E9F", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "All Races", "Female", "63.3", "1720.7" ]
+, [ "row-xee3.3zbj.qf9e", "00000000-0000-0000-A3B1-5B5F76A23218", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "All Races", "Female", "63.9", "1690.6" ]
+, [ "row-vwi8.96cy~sve7", "00000000-0000-0000-1E57-BFB6C18C5492", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "All Races", "Female", "60.6", "1780.6" ]
+, [ "row-wkd5_ydpi_tgm2", "00000000-0000-0000-06AB-82D0AD39B449", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "All Races", "Female", "62.4", "1695.1" ]
+, [ "row-wu29~xuws~iiig", "00000000-0000-0000-696B-3066A3CF517B", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "All Races", "Female", "65.3", "1599.1" ]
+, [ "row-hxbs.sxz3~x4ru", "00000000-0000-0000-855D-682B6F475610", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "All Races", "Female", "65.4", "1599.8" ]
+, [ "row-5fv5_6t3t-qigu", "00000000-0000-0000-3A93-8026A4B4AC64", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "All Races", "Female", "65.2", "1599.4" ]
+, [ "row-c2t5.kbri.uw2v", "00000000-0000-0000-73D4-3A2AAC68E9CD", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "All Races", "Female", "66.8", "1502.4" ]
+, [ "row-zfzz~wzis.q9ws", "00000000-0000-0000-F138-BA60B62D2B03", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "All Races", "Female", "67.9", "1444.7" ]
+, [ "row-wxaf-p3d3~8db7", "00000000-0000-0000-5583-F0C87387B30C", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "All Races", "Female", "64.4", "1507.8" ]
+, [ "row-gd6f_25xk.rrs2", "00000000-0000-0000-7739-2B35DEC963CE", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "All Races", "Female", "66.8", "1428.4" ]
+, [ "row-jpgq~65j5_n6w8", "00000000-0000-0000-E79C-BC731E86D31B", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "All Races", "Female", "67.9", "1376.8" ]
+, [ "row-vpus-cnve_r9yi", "00000000-0000-0000-194E-2A50129108DE", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "All Races", "Female", "69.4", "1342.8" ]
+, [ "row-e65w-3ak7_quc7", "00000000-0000-0000-9B97-CA4485EBC6EA", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "All Races", "Female", "69.7", "1332.5" ]
+, [ "row-ztym.6yj4_k45j", "00000000-0000-0000-DFC8-370B4035F131", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "All Races", "Female", "69.9", "1296.4" ]
+, [ "row-piwp_3xdd.t3q3", "00000000-0000-0000-0E62-DA478A3DF325", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "All Races", "Female", "70.7", "1252.6" ]
+, [ "row-2muc.8j9i.ezb6", "00000000-0000-0000-F57C-8AEEFBB6F1F2", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "All Races", "Female", "71.1", "1236.0" ]
+, [ "row-fpud~m9hs_gku9", "00000000-0000-0000-45DA-3540FFB57DAE", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "All Races", "Female", "71.4", "1213.4" ]
+, [ "row-g3r3-c2pp~qa4d", "00000000-0000-0000-D6CF-3A1A482BB072", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "All Races", "Female", "71.6", "1186.7" ]
+, [ "row-67qp-nxyf.227n", "00000000-0000-0000-D624-5A563ABA9C85", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "All Races", "Female", "72.0", "1172.6" ]
+, [ "row-8eqy.zf8y~5xfi", "00000000-0000-0000-CC05-56F99A8E98C8", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "All Races", "Female", "72.8", "1109.7" ]
+, [ "row-9yhr.5swz.8st3", "00000000-0000-0000-4A53-3F8E4BBE0BA8", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "All Races", "Female", "72.8", "1121.9" ]
+, [ "row-fpps.sbtq-234a", "00000000-0000-0000-6F03-032B1F1A6960", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "All Races", "Female", "72.9", "1117.5" ]
+, [ "row-r4gp-ca8c-ku5q", "00000000-0000-0000-CF6A-A25D2F216E8A", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "All Races", "Female", "72.7", "1134.5" ]
+, [ "row-bzdq~7ac4_cv86", "00000000-0000-0000-860D-AA0060C2651B", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "All Races", "Female", "72.9", "1120.9" ]
+, [ "row-7xj3-t2hb.gkey", "00000000-0000-0000-DBC0-E4848D5C6E2F", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "All Races", "Female", "73.2", "1093.5" ]
+, [ "row-tpzf~iv5b~nrws", "00000000-0000-0000-9426-82C8E442FEFA", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "All Races", "Female", "73.1", "1105.3" ]
+, [ "row-2i6y~mg84-ttb7", "00000000-0000-0000-8839-F1015D6F0A2C", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "All Races", "Female", "73.6", "1068.5" ]
+, [ "row-ks2h.xtym-3syy", "00000000-0000-0000-FE95-D0BD6FAF9946", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "All Races", "Female", "73.5", "1087.1" ]
+, [ "row-37ay~h3yu_n6y9", "00000000-0000-0000-0E77-7DE86B56607D", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "All Races", "Female", "73.4", "1098.5" ]
+, [ "row-gpf3_kn32~gc9v", "00000000-0000-0000-CD17-B16CD2E2BB76", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "All Races", "Female", "73.7", "1061.5" ]
+, [ "row-6vty.hhu3_kpa8", "00000000-0000-0000-3BD3-E979B4CFBB7F", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "All Races", "Female", "73.8", "1056.1" ]
+, [ "row-q9j9-ypjn-s89b", "00000000-0000-0000-FFE4-56D22F1E1FF4", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "All Races", "Female", "73.9", "1055.3" ]
+, [ "row-rmyx_ypcj-t7mu", "00000000-0000-0000-2A36-94DD80AB2D97", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "All Races", "Female", "74.3", "1020.5" ]
+, [ "row-56ft_zgf4_h3k9", "00000000-0000-0000-46C0-3CE54607F381", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "All Races", "Female", "74.1", "1043.5" ]
+, [ "row-6saj_q477_8bte", "00000000-0000-0000-E304-0AD3067E2131", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "All Races", "Female", "74.4", "1013.4" ]
+, [ "row-dhym-ib3j-52r4", "00000000-0000-0000-35E1-3EF88B90394D", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "All Races", "Female", "74.7", "971.4" ]
+, [ "row-z45t~iszx-p7gb", "00000000-0000-0000-BC8B-841E73C4B077", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "All Races", "Female", "75.0", "960.6" ]
+, [ "row-vu62-y4xq~psv4", "00000000-0000-0000-EA13-61BB483C5E34", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "All Races", "Female", "75.1", "958.7" ]
+, [ "row-3i64_76ie-9yaf", "00000000-0000-0000-A284-CA6493549553", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "All Races", "Female", "75.3", "947.8" ]
+, [ "row-ue9z-xzqz~sny6", "00000000-0000-0000-D020-54CDDEBCDF85", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "All Races", "Female", "75.9", "907.5" ]
+, [ "row-8g9r.u8ua.qesn", "00000000-0000-0000-F010-23485F01916D", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "All Races", "Female", "76.6", "855.1" ]
+, [ "row-gtvz.yuxu~4ihy", "00000000-0000-0000-0DAB-15A0934D9ACB", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "All Races", "Female", "76.8", "849.4" ]
+, [ "row-4ht3_6uw8-fkip", "00000000-0000-0000-CEBE-3130BAF77559", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "All Races", "Female", "77.2", "820.7" ]
+, [ "row-h372.cycc.nryg", "00000000-0000-0000-002A-1F49FF5FBD4D", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "All Races", "Female", "77.3", "816.4" ]
+, [ "row-ua2x.pczh.rb57", "00000000-0000-0000-0D0F-34ED6E1DF1ED", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "All Races", "Female", "77.8", "789.9" ]
+, [ "row-it4d.iv3y.97ac", "00000000-0000-0000-6E64-0C57CB77F141", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "All Races", "Female", "77.4", "817.7" ]
+, [ "row-wisc-9nw8.sy72", "00000000-0000-0000-5C05-DF46C3B1D57B", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "All Races", "Female", "77.8", "792.7" ]
+, [ "row-kikr-8b99~juge", "00000000-0000-0000-FB5B-4BFFEFF1CAC4", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "All Races", "Female", "78.1", "776.4" ]
+, [ "row-u5tf.guav_da3y", "00000000-0000-0000-A9C2-9A62F32CE69E", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "All Races", "Female", "78.1", "783.3" ]
+, [ "row-fj5t-gyct~9xpf", "00000000-0000-0000-9786-E0C0C8412A10", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "All Races", "Female", "78.2", "779.4" ]
+, [ "row-3wbg.bbbi~e9xb", "00000000-0000-0000-5D68-5A2C4B472F88", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "All Races", "Female", "78.2", "784.2" ]
+, [ "row-vr7w~zxqm~rid7", "00000000-0000-0000-AF41-405044887B64", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "All Races", "Female", "78.2", "778.5" ]
+, [ "row-98d4_m5s7-h3f2", "00000000-0000-0000-2883-58105C740D27", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "All Races", "Female", "78.3", "773.8" ]
+, [ "row-h2c9.5cac.mfei", "00000000-0000-0000-797C-39A96E6892F4", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "All Races", "Female", "78.3", "780.5" ]
+, [ "row-xse3.3xa8.aarr", "00000000-0000-0000-320B-AC1597023D9E", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "All Races", "Female", "78.5", "761.3" ]
+, [ "row-nu5n.8a5b_wgky", "00000000-0000-0000-BDCB-C6EAB35F2AF0", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "All Races", "Female", "78.8", "750.3" ]
+, [ "row-9bzu-fyz3_8dxy", "00000000-0000-0000-5DCF-102F9EB8293F", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "All Races", "Female", "78.9", "737.9" ]
+, [ "row-c6n6-gwm5.fb2c", "00000000-0000-0000-68BF-11D8434E446B", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "All Races", "Female", "79.1", "725.3" ]
+, [ "row-q6at-sqec_gc6t", "00000000-0000-0000-1E8D-6ABC382B32D6", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "All Races", "Female", "78.8", "745.6" ]
+, [ "row-r9ra.qkm7.fxhc", "00000000-0000-0000-0084-FEC656DF2981", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "All Races", "Female", "79.0", "738.3" ]
+, [ "row-yjn9~mdep.4tyi", "00000000-0000-0000-0C88-AB274E7066BF", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "All Races", "Female", "78.9", "739.2" ]
+, [ "row-ufxj~uga7_ngqz", "00000000-0000-0000-3CCC-2032AAE872FB", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "All Races", "Female", "79.1", "732.7" ]
+, [ "row-wpza~pjbk_5b79", "00000000-0000-0000-538C-98B4E9C13F18", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "All Races", "Female", "79.4", "725.3" ]
+, [ "row-6k35~rzh2~trt6", "00000000-0000-0000-8CA8-C761D834229B", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "All Races", "Female", "79.5", "724.2" ]
+, [ "row-8ryv.ks5i_cxcn", "00000000-0000-0000-F989-9F9E5BC288FD", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "All Races", "Female", "79.4", "734.0" ]
+, [ "row-ezi2.pakd.tp89", "00000000-0000-0000-6852-ACA8A5BE7FCD", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "All Races", "Female", "79.7", "731.4" ]
+, [ "row-dw4f~hp6f~qu5q", "00000000-0000-0000-9CF4-A80BE13F36C0", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "All Races", "Female", "79.5", "725.6" ]
+, [ "row-vcr8.usrt-db66", "00000000-0000-0000-FA91-875D706DA7D4", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "All Races", "Female", "79.6", "723.6" ]
+, [ "row-vdcg~q2vv-q9gd", "00000000-0000-0000-821B-48478B5F9E0A", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "All Races", "Female", "79.7", "715.2" ]
+, [ "row-56is_kr7v-g65f", "00000000-0000-0000-F898-78BFAF48D108", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "All Races", "Female", "80.1", "690.5" ]
+, [ "row-p55d_eb5i_9s2r", "00000000-0000-0000-040C-F3044A561A22", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "All Races", "Female", "80.1", "692.3" ]
+, [ "row-nbyz~8gri.z3qd", "00000000-0000-0000-73FF-25A6A2452952", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "All Races", "Female", "80.3", "672.2" ]
+, [ "row-fvnf.qqzi_qhnb", "00000000-0000-0000-3FCA-CC815C6625CF", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "All Races", "Female", "80.6", "658.1" ]
+, [ "row-r5rr-pke9_av6u", "00000000-0000-0000-D112-CC99E800F149", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "All Races", "Female", "80.6", "660.0" ]
+, [ "row-yywx.7pc5.y9r2", "00000000-0000-0000-B32D-EDACA67A3291", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "All Races", "Female", "80.9", "636.8" ]
+, [ "row-8eue.wnvu_quud", "00000000-0000-0000-26D3-DDBD39C4DF77", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "All Races", "Female", "81.0", "634.9" ]
+, [ "row-3jiz~acfx_a63n", "00000000-0000-0000-337E-75BF55C522F4", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "All Races", "Female", "81.1", "632.4" ]
+, [ "row-5kbv_a9fu~mjmr", "00000000-0000-0000-4B02-DE7EFEE887F5", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "All Races", "Female", "81.2", "624.7" ]
+, [ "row-v6df_tnne~sd28", "00000000-0000-0000-066C-3B74E0F0CC1B", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "All Races", "Female", "81.2", "623.5" ]
+, [ "row-ze3w.5ceh_u9br", "00000000-0000-0000-5FB9-634D4617DE9A", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "All Races", "Female", "81.3", "616.7" ]
+, [ "row-wr3r.ku38.n775", "00000000-0000-0000-8F81-A38162DFE00A", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "All Races", "Female", "81.1", "624.2" ]
+, [ "row-j8wg-5n87~weyp", "00000000-0000-0000-0979-25A8886E8A2C", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "All Races", "Female", "81.1", "617.5" ]
+, [ "row-qf4y_q85a-7i6z", "00000000-0000-0000-7BAE-53F85ED6C871", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "All Races", "Female", "81.1", "619.7" ]
+, [ "row-jgzx.fzzx~ydsb", "00000000-0000-0000-D238-F681560C9DB7", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "All Races", "Male", "46.3", "2630.8" ]
+, [ "row-dikd-9xmm~edpb", "00000000-0000-0000-C2FD-3F98FABE7543", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "All Races", "Male", "47.6", "2600.5" ]
+, [ "row-2ar3~mfc2_4zwa", "00000000-0000-0000-1B48-6984C729A58A", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "All Races", "Male", "49.8", "2447.9" ]
+, [ "row-36ta~7ugw.fi23", "00000000-0000-0000-331E-37BD359E1D96", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "All Races", "Male", "49.1", "2513.5" ]
+, [ "row-byw2-e6kq_kjpr", "00000000-0000-0000-D522-1862B9CB13DE", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "All Races", "Male", "46.2", "2652.9" ]
+, [ "row-y6rq-2uqf_hjg2", "00000000-0000-0000-F304-A191B03B099F", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "All Races", "Male", "47.3", "2565.5" ]
+, [ "row-7qdh.kk9u~8yat", "00000000-0000-0000-AF55-C1974C9CDFEF", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "All Races", "Male", "46.9", "2553.6" ]
+, [ "row-f5b6.wzkx_dspk", "00000000-0000-0000-72C0-8AEE27992963", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "All Races", "Male", "45.6", "2660.3" ]
+, [ "row-phxp-bqrk_kjs7", "00000000-0000-0000-21A3-1F4688AA88A2", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "All Races", "Male", "49.5", "2433.4" ]
+, [ "row-5xpk~ud59.7t5v", "00000000-0000-0000-8FD3-AA2A7837C6F7", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "All Races", "Male", "50.5", "2385.7" ]
+, [ "row-mc57~bmqz-bvqv", "00000000-0000-0000-3206-16A415668AFE", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "All Races", "Male", "48.4", "2459.9" ]
+, [ "row-geu3_5en6_yecm", "00000000-0000-0000-911C-8B7060ED38DB", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "All Races", "Male", "50.9", "2374.5" ]
+, [ "row-iqqx.8e9g.vbm9", "00000000-0000-0000-C749-19B1EDE2D8F4", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "All Races", "Male", "51.5", "2352.8" ]
+, [ "row-ex8g-z8rw-6tpm", "00000000-0000-0000-0643-27EC7965E79E", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "All Races", "Male", "50.3", "2351.2" ]
+, [ "row-tz5w~5mjh~iuj7", "00000000-0000-0000-8276-A817FD7F46AD", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "All Races", "Male", "52.0", "2286.1" ]
+, [ "row-muws-g3vc_qjju", "00000000-0000-0000-2F82-7CE4FEAF1C4B", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "All Races", "Male", "52.5", "2302.6" ]
+, [ "row-td65~fzbi_6hhc", "00000000-0000-0000-4A4D-1E62CCA7C23F", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "All Races", "Male", "49.6", "2406.2" ]
+, [ "row-ssm3~yvph_wew9", "00000000-0000-0000-B7C1-2F803E842769", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "All Races", "Male", "48.4", "2427.8" ]
+, [ "row-zm5w_gpyz.r7a6", "00000000-0000-0000-042F-08EC8CE0AD76", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "All Races", "Male", "36.6", "2740.5" ]
+, [ "row-3aap-xw59_m39s", "00000000-0000-0000-32B4-A2C0BA2B06AB", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "All Races", "Male", "53.5", "2141.5" ]
+, [ "row-5yzc.fqxe_t2yk", "00000000-0000-0000-2E1E-69F97052592E", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "All Races", "Male", "53.6", "2213.2" ]
+, [ "row-wh47-iyux_g8nj", "00000000-0000-0000-6973-3E01985F8974", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "All Races", "Male", "60.0", "2025.0" ]
+, [ "row-f4c9.ympi~7r4g", "00000000-0000-0000-C6A9-EEC38DFD4F76", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "All Races", "Male", "58.4", "2131.8" ]
+, [ "row-mkxb-hp5z_5kcg", "00000000-0000-0000-3785-AC87564E94C7", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "All Races", "Male", "56.1", "2229.5" ]
+, [ "row-84cz_q474.igb7", "00000000-0000-0000-04E6-F7616A3A3F12", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "All Races", "Male", "58.1", "2146.9" ]
+, [ "row-ezjy_fkhd-xy3i", "00000000-0000-0000-3F25-95176E7337A0", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "All Races", "Male", "57.6", "2178.0" ]
+, [ "row-3qh3-u7xh-ia9y", "00000000-0000-0000-106D-E996D6EBBA09", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "All Races", "Male", "55.5", "2262.2" ]
+, [ "row-9ff3.5yz5~rrmt", "00000000-0000-0000-184F-D4682110FA1D", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "All Races", "Male", "59.0", "2113.8" ]
+, [ "row-rq6s.8fu5~wina", "00000000-0000-0000-1883-CCA0A16967CA", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "All Races", "Male", "55.6", "2256.3" ]
+, [ "row-376v~qzx5.u34a", "00000000-0000-0000-C1CB-AC51F2565A9A", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "All Races", "Male", "55.8", "2219.7" ]
+, [ "row-h6if.mske.8hw3", "00000000-0000-0000-5320-5F0BDE6913D2", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "All Races", "Male", "58.1", "2088.8" ]
+, [ "row-2wsm-s3kr~vc2e", "00000000-0000-0000-1125-C0990E1D5377", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "All Races", "Male", "59.4", "2047.4" ]
+, [ "row-ffpy~d2z5-fa2g", "00000000-0000-0000-601D-1CA1EE420F80", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "All Races", "Male", "61.0", "2036.4" ]
+, [ "row-ynvc~u5qn.4tzg", "00000000-0000-0000-6939-F4067F274C89", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "All Races", "Male", "61.7", "2002.0" ]
+, [ "row-ceu5~wyqh~5khp", "00000000-0000-0000-6B5D-706EBFD7A86F", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "All Races", "Male", "59.3", "2056.7" ]
+, [ "row-rp95.qbwf~fp3k", "00000000-0000-0000-F0A2-895FBB5FBFA3", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "All Races", "Male", "59.9", "2031.2" ]
+, [ "row-bxzu~c4sj_fzwc", "00000000-0000-0000-D310-17E3FE2D813F", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "All Races", "Male", "56.6", "2148.5" ]
+, [ "row-7jux~hfm6.u3xq", "00000000-0000-0000-49A0-AE0037E9473F", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "All Races", "Male", "58.0", "2072.8" ]
+, [ "row-ngt8~cab4-pbr4", "00000000-0000-0000-E992-1B8421023B6F", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "All Races", "Male", "61.9", "1932.4" ]
+, [ "row-nhu4.633a.dr6i", "00000000-0000-0000-F7EA-1CEC1721921D", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "All Races", "Male", "62.1", "1937.2" ]
+, [ "row-a2pr-q7u7_2bkb", "00000000-0000-0000-C593-65AE222967EC", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "All Races", "Male", "60.8", "1976.0" ]
+, [ "row-4eif_95s9-7cn8", "00000000-0000-0000-3D19-6B052478AAE2", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "All Races", "Male", "63.1", "1894.3" ]
+, [ "row-xw7x~d7js.4dm3", "00000000-0000-0000-40D8-06FCFB686B4C", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "All Races", "Male", "64.7", "1835.1" ]
+, [ "row-uebx~9a6s-atea", "00000000-0000-0000-307E-12904C76B779", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "All Races", "Male", "62.4", "1907.7" ]
+, [ "row-eyg6_3pbe-yqxt", "00000000-0000-0000-BCCE-10163923DA28", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "All Races", "Male", "63.6", "1821.6" ]
+, [ "row-wd3g-igth-kqu7", "00000000-0000-0000-CDDA-6ED9E3803E44", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "All Races", "Male", "63.6", "1791.6" ]
+, [ "row-vbht_pepc-stmy", "00000000-0000-0000-EE5B-BE08B2FF2F57", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "All Races", "Male", "64.4", "1727.6" ]
+, [ "row-cyut-jbmk.n7wv", "00000000-0000-0000-2539-F45C5EC064C4", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "All Races", "Male", "64.4", "1743.0" ]
+, [ "row-zgpe_8yum~np34", "00000000-0000-0000-51C2-2CC95C5289C4", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "All Races", "Male", "64.6", "1720.5" ]
+, [ "row-4ig9_ys6q.x8kx", "00000000-0000-0000-53F4-0C3082A9B387", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "All Races", "Male", "65.2", "1676.7" ]
+, [ "row-eusi-p8jt_xg2t", "00000000-0000-0000-085B-4DAD25707B7A", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "All Races", "Male", "65.6", "1674.2" ]
+, [ "row-2j7b.qkq9.yu82", "00000000-0000-0000-DE20-7CBA5529A7D4", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "All Races", "Male", "65.6", "1651.7" ]
+, [ "row-7fs7.ba7v~nehz", "00000000-0000-0000-4BFC-2B031A8FF8D7", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "All Races", "Male", "65.8", "1620.8" ]
+, [ "row-u5vj_4mzy_p6n6", "00000000-0000-0000-4AA8-8B581629CC2D", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "All Races", "Male", "66.0", "1619.0" ]
+, [ "row-7c9d~h4n4~ddde", "00000000-0000-0000-D542-0DAE01900471", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "All Races", "Male", "66.7", "1540.7" ]
+, [ "row-yh6a-hhms-b39n", "00000000-0000-0000-68B2-AE5713465C41", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "All Races", "Male", "66.7", "1565.2" ]
+, [ "row-u49a.tnb5.y6wa", "00000000-0000-0000-F600-97E85556E887", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "All Races", "Male", "66.7", "1575.5" ]
+, [ "row-yaaq_ib6f_mdnx", "00000000-0000-0000-43A6-EE0ADC68E04D", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "All Races", "Male", "66.4", "1606.7" ]
+, [ "row-6495.u4vq_wraj", "00000000-0000-0000-7AB2-E850385751FB", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "All Races", "Male", "66.6", "1596.3" ]
+, [ "row-53d2.8ji5-676z", "00000000-0000-0000-F9DD-45E4858D6E9A", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "All Races", "Male", "66.8", "1573.4" ]
+, [ "row-uu27~msp4_k6gw", "00000000-0000-0000-A18A-3B96268DE89B", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "All Races", "Male", "66.6", "1609.0" ]
+, [ "row-ngri~pvs8~ujxw", "00000000-0000-0000-41E8-719B349A91A4", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "All Races", "Male", "67.1", "1567.6" ]
+, [ "row-bypb~6fjf-4qn3", "00000000-0000-0000-6392-64F2D2D8E46F", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "All Races", "Male", "66.9", "1604.4" ]
+, [ "row-7e5n.drnh-xfrz", "00000000-0000-0000-A191-F49711C2AA57", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "All Races", "Male", "66.6", "1644.0" ]
+, [ "row-k568-632s-2bv6", "00000000-0000-0000-186C-778F002A44A3", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "All Races", "Male", "66.8", "1597.0" ]
+, [ "row-44ka_kkxg_r6yk", "00000000-0000-0000-4123-F908A33B912A", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "All Races", "Male", "66.8", "1614.3" ]
+, [ "row-3zmg~g558.8j8r", "00000000-0000-0000-3DBC-5F3258CC8AE3", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "All Races", "Male", "66.7", "1624.2" ]
+, [ "row-74ii.vbsn_3dq3", "00000000-0000-0000-1453-92675B8E401F", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "All Races", "Male", "67.0", "1591.8" ]
+, [ "row-ta5d.acin~hsge", "00000000-0000-0000-CD66-10A3EA496F5E", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "All Races", "Male", "66.6", "1635.2" ]
+, [ "row-wzkv~yz79.2d5t", "00000000-0000-0000-2BC2-D15FF7DBC38D", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "All Races", "Male", "66.8", "1601.4" ]
+, [ "row-xzju-zfnj.vbcj", "00000000-0000-0000-8F67-857C8E07D94C", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "All Races", "Male", "67.1", "1542.1" ]
+, [ "row-6shc.nzha~27mg", "00000000-0000-0000-6394-05CFBB49B3E9", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "All Races", "Male", "67.4", "1542.5" ]
+, [ "row-szje-dsu5~4wxb", "00000000-0000-0000-3BFF-6EBF9E13CC1F", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "All Races", "Male", "67.4", "1551.1" ]
+, [ "row-wr9r~65sy.evkw", "00000000-0000-0000-94AC-9012F7C3EE1D", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "All Races", "Male", "67.6", "1537.5" ]
+, [ "row-rvpq_edvf-h3up", "00000000-0000-0000-1FA8-1FCE3894B03F", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "All Races", "Male", "68.2", "1478.5" ]
+, [ "row-f8j4_p9qh.b9uy", "00000000-0000-0000-7197-FA4076C65F2F", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "All Races", "Male", "68.8", "1417.4" ]
+, [ "row-f5ev_zwpi-2m9v", "00000000-0000-0000-B7E4-07BAF6C55CCE", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "All Races", "Male", "69.1", "1404.3" ]
+, [ "row-fu39.phpn_hq5c", "00000000-0000-0000-A112-130823E8B205", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "All Races", "Male", "69.5", "1369.3" ]
+, [ "row-shr5_etjv_77cm", "00000000-0000-0000-EFF3-B9F1ACADC433", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "All Races", "Male", "69.6", "1358.1" ]
+, [ "row-wrqr~5fh3_kcmp", "00000000-0000-0000-27D4-CBC53B39FE75", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "All Races", "Male", "70.0", "1316.2" ]
+, [ "row-k3ks~gsaf~5qa4", "00000000-0000-0000-16FA-54115BA6A3AB", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "All Races", "Male", "70.0", "1347.6" ]
+, [ "row-nstx_wjtq~tfsb", "00000000-0000-0000-CBBE-4C76B3C71799", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "All Races", "Male", "70.4", "1308.2" ]
+, [ "row-pqh9-rhwk-zr9j", "00000000-0000-0000-5B75-464A77C81B64", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "All Races", "Male", "70.8", "1279.9" ]
+, [ "row-q4tm~dhen~4dik", "00000000-0000-0000-5FC6-731DA33BA1A1", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "All Races", "Male", "71.0", "1284.4" ]
+, [ "row-gq8c_bjjk.myfq", "00000000-0000-0000-57D7-F01F53D7503A", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "All Races", "Male", "71.1", "1271.0" ]
+, [ "row-y6zr.urbz.7b6g", "00000000-0000-0000-B0E6-E3E1BB581F5E", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "All Races", "Male", "71.1", "1277.6" ]
+, [ "row-rtng_tm8r~fp2k", "00000000-0000-0000-E3D4-FC72E16DBAF0", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "All Races", "Male", "71.2", "1261.5" ]
+, [ "row-urcb.kpn8-phpv", "00000000-0000-0000-17DE-99E673BB335C", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "All Races", "Male", "71.4", "1245.7" ]
+, [ "row-v9jd~mm5e.papd", "00000000-0000-0000-9CA1-6A534F81FAB7", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "All Races", "Male", "71.4", "1250.0" ]
+, [ "row-sehx-m49y-m935", "00000000-0000-0000-6276-E7AF3E8FD9AB", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "All Races", "Male", "71.7", "1214.2" ]
+, [ "row-nwqp_dxq4~97ek", "00000000-0000-0000-2BA0-85525C255490", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "All Races", "Male", "71.8", "1202.0" ]
+, [ "row-vgyq~s3ht~tfdp", "00000000-0000-0000-0E8D-BFFA2755FC81", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "All Races", "Male", "72.0", "1180.2" ]
+, [ "row-fuht.mgjj-xzsd", "00000000-0000-0000-D174-46D786616D0A", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "All Races", "Male", "72.3", "1158.0" ]
+, [ "row-n4gj-2pnj.b533", "00000000-0000-0000-44AA-754D173D98A1", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "All Races", "Male", "72.2", "1177.0" ]
+, [ "row-qfpt.vubz-2aqw", "00000000-0000-0000-5CA5-EFC30E4D559D", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "All Races", "Male", "72.4", "1155.1" ]
+, [ "row-vjiv-jx8t-5dkw", "00000000-0000-0000-ED76-0549163806A2", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "All Races", "Male", "72.5", "1143.6" ]
+, [ "row-8smx-a759.f4rw", "00000000-0000-0000-5C31-01AE311CE10C", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "All Races", "Male", "73.1", "1115.2" ]
+, [ "row-shbx_peei-a6ev", "00000000-0000-0000-F1DC-A79727962B48", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "All Races", "Male", "73.6", "1087.7" ]
+, [ "row-ggrv-eukc.bqtb", "00000000-0000-0000-C072-81E43C7EAF7B", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "All Races", "Male", "73.8", "1068.9" ]
+, [ "row-qw9b_cetc-b3ik", "00000000-0000-0000-1B3F-E7E6FFB30803", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "All Races", "Male", "73.9", "1067.0" ]
+, [ "row-s928.ffyn-iaut", "00000000-0000-0000-F896-2EF7413409CB", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "All Races", "Male", "74.3", "1053.8" ]
+, [ "row-fjjq.zc2z.96rq", "00000000-0000-0000-FC51-8CA51DD65F10", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "All Races", "Male", "74.3", "1035.3" ]
+, [ "row-vqr2-qtyv-xiwz", "00000000-0000-0000-C617-80F66D083A8D", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "All Races", "Male", "74.4", "1030.6" ]
+, [ "row-7r9c.nab9-8czw", "00000000-0000-0000-6808-5B226329D145", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "All Races", "Male", "74.5", "1010.3" ]
+, [ "row-ubhp.knfs.imje", "00000000-0000-0000-A21C-7454CBEC2B7B", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "All Races", "Male", "75.0", "973.3" ]
+, [ "row-ncwn_we2h_6rx6", "00000000-0000-0000-A8E2-3DC770F98192", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "All Races", "Male", "75.0", "971.9" ]
+, [ "row-39xh_ui66_ch8u", "00000000-0000-0000-B1B2-BBE196AE60B5", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "All Races", "Male", "75.2", "943.4" ]
+, [ "row-xzgg_2sce-b8y3", "00000000-0000-0000-6557-776702CFA92F", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "All Races", "Male", "75.5", "922.9" ]
+, [ "row-hsu5.96pa_cvjw", "00000000-0000-0000-4EEC-C36DDAF8ACDE", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "All Races", "Male", "75.6", "918.8" ]
+, [ "row-sr64.i9gy_gap9", "00000000-0000-0000-93FD-C4A6F8F91672", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "All Races", "Male", "76.0", "890.9" ]
+, [ "row-35s7.i27v_wpei", "00000000-0000-0000-8E9C-AB993D7D8952", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "All Races", "Male", "76.2", "887.1" ]
+, [ "row-vy7q_3mk8_5vti", "00000000-0000-0000-E62B-147A2C1E041B", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "All Races", "Male", "76.3", "875.3" ]
+, [ "row-nq74-8t9x_wkdt", "00000000-0000-0000-BE30-24A0DB338B28", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "All Races", "Male", "76.4", "865.1" ]
+, [ "row-ms5i~mvsb.5crr", "00000000-0000-0000-4F94-480BE2477076", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "All Races", "Male", "76.4", "863.6" ]
+, [ "row-v7fc-3vfa-3mh6", "00000000-0000-0000-F743-648C57E5C9CB", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "All Races", "Male", "76.5", "855.1" ]
+, [ "row-kjw7-prtt_iq9y", "00000000-0000-0000-DC81-D7AF6C2A126A", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "All Races", "Male", "76.3", "863.2" ]
+, [ "row-uki3-pr7r_xfe3", "00000000-0000-0000-A919-9F226D9933A2", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "All Races", "Male", "76.2", "861.0" ]
+, [ "row-gzcb~bqei.gtjc", "00000000-0000-0000-96B3-01E24C08A25B", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "All Races", "Male", "76.1", "864.5" ]
+, [ "row-biej-93ci_zpnu", "00000000-0000-0000-622D-8CFE255F1F09", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "Black", "Both Sexes", "33.0", "3423.3" ]
+, [ "row-mt3m-yg3b-8pdf", "00000000-0000-0000-ABB9-265C8AC67825", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "Black", "Both Sexes", "33.7", "3338.4" ]
+, [ "row-8bwk.kqb9_6cnc", "00000000-0000-0000-049D-450785A4F9FE", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "Black", "Both Sexes", "34.6", "3190.4" ]
+, [ "row-6uxr-k5py-knuz", "00000000-0000-0000-C60F-29CCB649FBB6", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "Black", "Both Sexes", "33.1", "3373.7" ]
+, [ "row-m252-vcin-ztzn", "00000000-0000-0000-6FDF-3B2854160A8B", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "Black", "Both Sexes", "30.8", "3586.2" ]
+, [ "row-94v3.6pm9.62y4", "00000000-0000-0000-1BDC-410E00EC033E", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "Black", "Both Sexes", "31.3", "3440.1" ]
+, [ "row-qswb_zyq2_xcft", "00000000-0000-0000-C41A-6D23B4A12159", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "Black", "Both Sexes", "32.9", "3223.4" ]
+, [ "row-9pv8~kvis.bw4g", "00000000-0000-0000-1387-D1DB5AA2E36D", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "Black", "Both Sexes", "32.5", "3295.1" ]
+, [ "row-6wug~x7vd.esf9", "00000000-0000-0000-DA4E-D43098DB4887", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "Black", "Both Sexes", "34.9", "3048.2" ]
+, [ "row-zyrt.f56y-mrc8", "00000000-0000-0000-5BA3-EA8C29A4AB2D", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "Black", "Both Sexes", "35.7", "3006.9" ]
+, [ "row-senx_fjsc.5ks6", "00000000-0000-0000-0238-C3D452350B71", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "Black", "Both Sexes", "35.6", "2983.5" ]
+, [ "row-2pth.bexf.uteq", "00000000-0000-0000-8473-D5FC759CCCCA", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "Black", "Both Sexes", "36.4", "3000.6" ]
+, [ "row-hxzq.j9rw_zc3i", "00000000-0000-0000-A443-8B3F34D454EC", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "Black", "Both Sexes", "37.9", "2959.2" ]
+, [ "row-tphb_rbgc~5qmk", "00000000-0000-0000-1595-48D3E211FC95", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "Black", "Both Sexes", "38.4", "2906.6" ]
+, [ "row-3akg.saae~y93h", "00000000-0000-0000-BD9C-BFF22F839E1B", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "Black", "Both Sexes", "38.9", "2914.6" ]
+, [ "row-p7n3~m4rk~azax", "00000000-0000-0000-20BA-770E9F27D611", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "Black", "Both Sexes", "38.9", "3021.8" ]
+, [ "row-bdzc-6amg~3nij", "00000000-0000-0000-A57B-A671AEB44282", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "Black", "Both Sexes", "41.3", "2940.3" ]
+, [ "row-6nmr.q7hd-9wae", "00000000-0000-0000-145D-312F33582379", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "Black", "Both Sexes", "38.8", "3069.6" ]
+, [ "row-8zsh_7chs_y3i9", "00000000-0000-0000-0085-02E1698FE9ED", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "Black", "Both Sexes", "31.1", "3411.9" ]
+, [ "row-a9ye_t43p~8i9q", "00000000-0000-0000-4822-54B60C646096", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "Black", "Both Sexes", "44.5", "2648.5" ]
+, [ "row-vm43~g8v2~jwnw", "00000000-0000-0000-BE04-6BB53635C72E", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "Black", "Both Sexes", "45.3", "2743.3" ]
+, [ "row-npgx-ky8s-8iwi", "00000000-0000-0000-381C-3187DE74527A", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "Black", "Both Sexes", "51.5", "2459.8" ]
+, [ "row-dvvs~8zjc-zfmi", "00000000-0000-0000-B734-BACB628472B0", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "Black", "Both Sexes", "52.4", "2507.8" ]
+, [ "row-vi4i_5m7k-c5tk", "00000000-0000-0000-E970-455EB7A41F5F", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "Black", "Both Sexes", "48.3", "2717.8" ]
+, [ "row-p8rq~wu3t_qrb4", "00000000-0000-0000-FCF2-7D6F4DC854A1", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "Black", "Both Sexes", "46.6", "2806.5" ]
+, [ "row-xjw7-weiw-dprc", "00000000-0000-0000-1431-8DE50732C5E0", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "Black", "Both Sexes", "45.7", "2858.7" ]
+, [ "row-auqq-k7e5.xgr5", "00000000-0000-0000-E257-BF2CA87714FA", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "Black", "Both Sexes", "44.6", "2906.0" ]
+, [ "row-2nu2.svs3-qe6j", "00000000-0000-0000-EA13-4FBFB6F41021", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "Black", "Both Sexes", "48.2", "2676.2" ]
+, [ "row-kd5n_3f56~zg6j", "00000000-0000-0000-F360-14E3233B537C", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "Black", "Both Sexes", "46.3", "2835.5" ]
+, [ "row-3s7k-fxx3_nkpu", "00000000-0000-0000-FFAD-C313D22B9269", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "Black", "Both Sexes", "46.7", "2832.6" ]
+, [ "row-nxxs~hqgx-yyig", "00000000-0000-0000-CE10-82ECEBFB8D92", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "Black", "Both Sexes", "48.1", "2682.9" ]
+, [ "row-g5eb~vvz6~eesb", "00000000-0000-0000-20A4-0BB77A3151AB", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "Black", "Both Sexes", "50.4", "2516.0" ]
+, [ "row-we57~nzxe_jpj6", "00000000-0000-0000-F63E-07C9E89A2ADA", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "Black", "Both Sexes", "53.7", "2397.3" ]
+, [ "row-gea9_kqgb~hb5a", "00000000-0000-0000-DFA7-AB8963163788", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "Black", "Both Sexes", "54.7", "2307.9" ]
+, [ "row-teg3.pnx3-mzxb", "00000000-0000-0000-A5C7-A3F63092DAFE", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "Black", "Both Sexes", "51.8", "2386.5" ]
+, [ "row-kmpx_ju4s~q4j9", "00000000-0000-0000-1459-3D10AF626D4F", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "Black", "Both Sexes", "53.1", "2316.0" ]
+, [ "row-etrr_qj3e~tjcp", "00000000-0000-0000-D9EB-BDEFEC1B5840", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "Black", "Both Sexes", "49.0", "2496.6" ]
+, [ "row-sj8v_cd97~7m8q", "00000000-0000-0000-A269-52D6B27EF0AE", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "Black", "Both Sexes", "50.3", "2374.0" ]
+, [ "row-avw5_57m2~ipvs", "00000000-0000-0000-2DE5-C5C6AF2DEB80", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "Black", "Both Sexes", "52.9", "2217.2" ]
+, [ "row-dft6.8brq~idtf", "00000000-0000-0000-41CE-51579F2D79C1", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "Black", "Both Sexes", "54.5", "2157.0" ]
+, [ "row-fhvi_ckej.s4g9", "00000000-0000-0000-4B8C-44E3D72789D5", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "Black", "Both Sexes", "53.1", "2254.1" ]
+, [ "row-qra8~34pm~52jq", "00000000-0000-0000-1C99-567FC571C4A1", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "Black", "Both Sexes", "53.8", "2142.8" ]
+, [ "row-4uar_rmkz-yafp", "00000000-0000-0000-70A3-87F7279E579A", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "Black", "Both Sexes", "56.6", "1988.9" ]
+, [ "row-z3zc-a8nq~cgts", "00000000-0000-0000-EEAA-915295D9E630", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "Black", "Both Sexes", "55.6", "2006.9" ]
+, [ "row-6hxs-s68d.wmbi", "00000000-0000-0000-C9BD-8A085031AC4D", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "Black", "Both Sexes", "56.6", "1904.5" ]
+, [ "row-n9hu-9qp4.7udv", "00000000-0000-0000-883F-72E98165E247", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "Black", "Both Sexes", "57.7", "1808.8" ]
+, [ "row-c9pw_jjra.ini4", "00000000-0000-0000-086F-4E604E3B1282", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "Black", "Both Sexes", "59.1", "1711.7" ]
+, [ "row-ip4a~y6yr.b4fa", "00000000-0000-0000-4FAA-A4B185C7FD17", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "Black", "Both Sexes", "59.7", "1749.7" ]
+, [ "row-up84.jtya.8thw", "00000000-0000-0000-18A1-5D78A69D4A47", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "Black", "Both Sexes", "60.0", "1766.9" ]
+, [ "row-tzsq-njhq-samv", "00000000-0000-0000-5282-9E7E2E08C54E", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "Black", "Both Sexes", "60.6", "1739.9" ]
+, [ "row-m4cf.52wa.issf", "00000000-0000-0000-2DD1-AA2E53B1F6A3", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "Black", "Both Sexes", "60.8", "1757.6" ]
+, [ "row-5vvm_kr8u_rnqc", "00000000-0000-0000-DE35-753E37F806B2", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "Black", "Both Sexes", "61.2", "1698.2" ]
+, [ "row-k6yr~gs44_9n6t", "00000000-0000-0000-5179-7D1EB9C7AC9A", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "Black", "Both Sexes", "61.4", "1671.3" ]
+, [ "row-pj8h_p3kj~4g56", "00000000-0000-0000-DAE4-85E5A3A7CB52", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "Black", "Both Sexes", "62.0", "1641.2" ]
+, [ "row-y29s.76yk.tkiu", "00000000-0000-0000-0245-65FD7D97F07B", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "Black", "Both Sexes", "63.4", "1514.8" ]
+, [ "row-bjsd-ric9_9jis", "00000000-0000-0000-C0BC-E4577BE97BF8", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "Black", "Both Sexes", "63.7", "1510.2" ]
+, [ "row-4qgx.7y6a.926m", "00000000-0000-0000-07CB-4DD966E7364B", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "Black", "Both Sexes", "63.6", "1519.2" ]
+, [ "row-55ts_ztxs-ui9z", "00000000-0000-0000-3B94-7350A53534C4", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "Black", "Both Sexes", "63.0", "1571.7" ]
+, [ "row-vntp-u325~43jv", "00000000-0000-0000-16BD-9882E0D6BC7E", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "Black", "Both Sexes", "63.4", "1552.1" ]
+, [ "row-d6kn_a9qd-6emp", "00000000-0000-0000-64EE-3BE9C8B8F22C", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "Black", "Both Sexes", "63.9", "1504.4" ]
+, [ "row-y5zc.i4rp-uwxw", "00000000-0000-0000-D4D5-2B9D1170FD49", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "Black", "Both Sexes", "63.6", "1549.0" ]
+, [ "row-df8i.e9bw_c22w", "00000000-0000-0000-6D39-513F90BE2575", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "Black", "Both Sexes", "64.5", "1492.2" ]
+, [ "row-c9zq~j7rq-jmmw", "00000000-0000-0000-9FA2-A29EBF552B9E", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "Black", "Both Sexes", "64.2", "1532.0" ]
+, [ "row-qnxw-zqgm_qxgj", "00000000-0000-0000-93B5-1B2D882D9C71", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "Black", "Both Sexes", "63.7", "1581.5" ]
+, [ "row-tgmw-a9xw.aeks", "00000000-0000-0000-CF8A-225E94BD32B0", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "Black", "Both Sexes", "64.2", "1507.1" ]
+, [ "row-5rud~zk4h_gdy5", "00000000-0000-0000-C51C-00CB74B66F33", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "Black", "Both Sexes", "64.3", "1508.9" ]
+, [ "row-4zfg.sa7z.3ytf", "00000000-0000-0000-78D1-5FE2B1205182", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "Black", "Both Sexes", "64.2", "1529.7" ]
+, [ "row-kpz8~a8rw_gmjr", "00000000-0000-0000-4146-0AFD49D5294D", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "Black", "Both Sexes", "64.9", "1466.9" ]
+, [ "row-5udp-5f8s.wdie", "00000000-0000-0000-4CE2-C014AC56A95E", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "Black", "Both Sexes", "64.1", "1615.6" ]
+, [ "row-scnk.w7nf_gfmf", "00000000-0000-0000-4086-C8EC02D6E29C", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "Black", "Both Sexes", "64.5", "1570.4" ]
+, [ "row-iw9g-yp3w-ygni", "00000000-0000-0000-B6D9-4BE8BB6283E4", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "Black", "Both Sexes", "64.1", "1518.1" ]
+, [ "row-225j-3s2x-ib2q", "00000000-0000-0000-F48D-1389F7C4AA12", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "Black", "Both Sexes", "64.6", "1481.3" ]
+, [ "row-hhi8_3nk8_trkz", "00000000-0000-0000-A2BC-7B6C90B331C4", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "Black", "Both Sexes", "64.7", "1486.3" ]
+, [ "row-aury_4v5e-uuqa", "00000000-0000-0000-3F9F-797AF07B881B", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "Black", "Both Sexes", "65.0", "1473.3" ]
+, [ "row-4pmt.6pvi_mc4v", "00000000-0000-0000-2073-5F1117ED3647", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "Black", "Both Sexes", "66.0", "1397.7" ]
+, [ "row-ebfc_vhjh.968f", "00000000-0000-0000-FE84-E7A848FA497F", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "Black", "Both Sexes", "66.8", "1327.5" ]
+, [ "row-du52~dt6z~z56q", "00000000-0000-0000-5E06-A80AB780AC31", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "Black", "Both Sexes", "67.2", "1311.2" ]
+, [ "row-yv9f~ykbi~b763", "00000000-0000-0000-327E-6100F7DA01DD", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "Black", "Both Sexes", "67.7", "1286.0" ]
+, [ "row-ibm5_wccx-9faa", "00000000-0000-0000-BA3E-1810A2B45879", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "Black", "Both Sexes", "68.1", "1267.7" ]
+, [ "row-4h9d~9gci-98mz", "00000000-0000-0000-2A80-A9BAD5F47817", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "Black", "Both Sexes", "68.5", "1238.5" ]
+, [ "row-r8x4-6gbq~5656", "00000000-0000-0000-D909-B94D7A556F14", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "Black", "Both Sexes", "68.1", "1312.9" ]
+, [ "row-8ts7_hiej_ia2i", "00000000-0000-0000-B658-E5E749A5F3EC", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "Black", "Both Sexes", "68.9", "1256.5" ]
+, [ "row-a3pt_dwrc_mqev", "00000000-0000-0000-F1C2-41C6C47BA811", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "Black", "Both Sexes", "69.4", "1220.1" ]
+, [ "row-qwud.pmmc-74ep", "00000000-0000-0000-7F88-8D7F102B9BF3", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "Black", "Both Sexes", "69.4", "1239.8" ]
+, [ "row-ejk4~s3ge-zmzq", "00000000-0000-0000-6DE0-E84034F78C47", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "Black", "Both Sexes", "69.5", "1234.5" ]
+, [ "row-g3m7~p8u9_zyri", "00000000-0000-0000-CB02-B73C19D5B4D9", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "Black", "Both Sexes", "69.3", "1259.1" ]
+, [ "row-5e7i_gzs2_jgh3", "00000000-0000-0000-3555-D284C6EA3F41", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "Black", "Both Sexes", "69.1", "1264.6" ]
+, [ "row-bb6b.xby6-e6vr", "00000000-0000-0000-2088-A21FE4C4C5D1", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "Black", "Both Sexes", "69.1", "1260.9" ]
+, [ "row-8wut.u8h3~rsek", "00000000-0000-0000-79ED-0230EA0099AD", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "Black", "Both Sexes", "68.9", "1281.9" ]
+, [ "row-zutb~5e6m_p7ad", "00000000-0000-0000-0BB8-A38BBB723F75", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "Black", "Both Sexes", "68.8", "1273.5" ]
+, [ "row-fhkp-rjm4_5d9h", "00000000-0000-0000-49DD-E7CD12301CB4", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "Black", "Both Sexes", "69.1", "1248.5" ]
+, [ "row-kcxe-qu2b.fhw2", "00000000-0000-0000-FB8A-1DA6A44ED934", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "Black", "Both Sexes", "69.3", "1233.6" ]
+, [ "row-kd4f~x358-4gfh", "00000000-0000-0000-48DC-797528CDC7DB", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "Black", "Both Sexes", "69.6", "1205.3" ]
+, [ "row-fnum_kdz6.nkzu", "00000000-0000-0000-A2AE-FC1BC64D70FF", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "Black", "Both Sexes", "69.2", "1240.2" ]
+, [ "row-a73i~fxeh.7r45", "00000000-0000-0000-197A-A369C6F8C18E", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "Black", "Both Sexes", "69.5", "1216.2" ]
+, [ "row-n6za~63vb-3du2", "00000000-0000-0000-0B78-8094A14BBE20", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "Black", "Both Sexes", "69.6", "1213.6" ]
+, [ "row-c6fr-jbid-wcfk", "00000000-0000-0000-862A-C144DBB74F78", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "Black", "Both Sexes", "70.2", "1177.6" ]
+, [ "row-na84_u9hx~3bd8", "00000000-0000-0000-30DF-A7A784ADA982", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "Black", "Both Sexes", "71.1", "1139.2" ]
+, [ "row-nyw6~44yd-zj5y", "00000000-0000-0000-4851-607D1DD2419F", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "Black", "Both Sexes", "71.3", "1127.1" ]
+, [ "row-gb2r~2rem~n9v6", "00000000-0000-0000-2E91-E5EF6F4382F7", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "Black", "Both Sexes", "71.4", "1135.7" ]
+, [ "row-m747.ymch~49dp", "00000000-0000-0000-0684-514CE17AA5AF", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "Black", "Both Sexes", "71.8", "1121.4" ]
+, [ "row-fuwh~26pf-uqa9", "00000000-0000-0000-97C0-1DA1BE50BEFF", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "Black", "Both Sexes", "72.0", "1106.2" ]
+, [ "row-migy-6fm2.vikx", "00000000-0000-0000-B2E2-0273198ECFD6", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "Black", "Both Sexes", "72.2", "1097.3" ]
+, [ "row-dns7_ahed-u5ag", "00000000-0000-0000-512C-48B98EFF2073", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "Black", "Both Sexes", "72.4", "1080.5" ]
+, [ "row-t24t~wq9i-5ixk", "00000000-0000-0000-196E-E8BCC72845AF", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "Black", "Both Sexes", "72.9", "1043.8" ]
+, [ "row-pedx~7rnu-6pru", "00000000-0000-0000-526F-AA5BE878278A", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "Black", "Both Sexes", "73.0", "1035.1" ]
+, [ "row-jpay.uhcy-d98f", "00000000-0000-0000-4A87-DBEC326D528E", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "Black", "Both Sexes", "73.4", "997.9" ]
+, [ "row-p5fi-8qa6~m8ux", "00000000-0000-0000-9C85-D98227EE05F4", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "Black", "Both Sexes", "73.8", "972.0" ]
+, [ "row-5i6z.qxj4_xvqz", "00000000-0000-0000-6881-B50A053C195F", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "Black", "Both Sexes", "74.3", "947.6" ]
+, [ "row-6keh-gi2m_37w9", "00000000-0000-0000-55E4-CD4928AB1EB6", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "Black", "Both Sexes", "74.7", "912.8" ]
+, [ "row-i2y4~u8zx_rknh", "00000000-0000-0000-D073-3946237E6A06", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "Black", "Both Sexes", "75.1", "898.2" ]
+, [ "row-8yia-z7wi~mcej", "00000000-0000-0000-89D4-433D92510F6C", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "Black", "Both Sexes", "75.3", "877.1" ]
+, [ "row-kq82_piw4.8qq5", "00000000-0000-0000-CF71-D91176005E65", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "Black", "Both Sexes", "75.5", "864.8" ]
+, [ "row-5pnh.89vp~eekz", "00000000-0000-0000-4700-1A340FA70E6F", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "Black", "Both Sexes", "75.5", "860.8" ]
+, [ "row-psb5.y6gx-u2mw", "00000000-0000-0000-6437-61CA35B91757", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "Black", "Both Sexes", "75.6", "849.3" ]
+, [ "row-yvmd.9i8f_6at6", "00000000-0000-0000-F233-373CB9D81115", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "Black", "Both Sexes", "75.5", "851.9" ]
+, [ "row-x7hp.i4pk_ap2q", "00000000-0000-0000-B60C-5B27D185C165", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "Black", "Both Sexes", "75.3", "857.2" ]
+, [ "row-w7tc_zq8t-zxdx", "00000000-0000-0000-C9E9-6B5C28C616F2", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "Black", "Both Sexes", "75.3", "854.1" ]
+, [ "row-cddw_iy3a_e7wz", "00000000-0000-0000-C815-23572E328CEB", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "Black", "Female", "33.5", "3308.0" ]
+, [ "row-efv7.wktr~smpm", "00000000-0000-0000-CE88-0C25A3BB5A6F", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "Black", "Female", "35.3", "3167.2" ]
+, [ "row-mneu.6hqy.efge", "00000000-0000-0000-28C0-F26E5551EA5E", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "Black", "Female", "36.4", "3003.4" ]
+, [ "row-4rvc-qshi-6ksr", "00000000-0000-0000-7126-C57AC5527253", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "Black", "Female", "34.6", "3210.9" ]
+, [ "row-8pit-g5x5-7qek", "00000000-0000-0000-A80B-CAA83527A47D", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "Black", "Female", "32.7", "3362.4" ]
+, [ "row-tcrq~7c4s.y25k", "00000000-0000-0000-5AD5-1CB2E8F8DADA", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "Black", "Female", "33.1", "3247.5" ]
+, [ "row-6hzg-68ud~nv9f", "00000000-0000-0000-D562-838F66F3BD35", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "Black", "Female", "33.9", "3115.4" ]
+, [ "row-wi4i~jv37_2ufm", "00000000-0000-0000-C3EF-7EB39101A3BB", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "Black", "Female", "34.0", "3179.3" ]
+, [ "row-tqhb~q4j3-vine", "00000000-0000-0000-E76C-4D04C25131F5", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "Black", "Female", "36.0", "2963.6" ]
+, [ "row-abw3_pf5f-7wva", "00000000-0000-0000-46AF-1BDAAF177149", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "Black", "Female", "37.3", "2875.6" ]
+, [ "row-pmtj.zpcv.hiar", "00000000-0000-0000-DE3E-90F379967659", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "Black", "Female", "37.5", "2875.3" ]
+, [ "row-36rn_u375.ewt8", "00000000-0000-0000-3041-7B97E995493F", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "Black", "Female", "38.2", "2899.8" ]
+, [ "row-a8ap-yi5y_bzax", "00000000-0000-0000-98C0-8B9320787AEE", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "Black", "Female", "40.0", "2807.7" ]
+, [ "row-42jb_gg6t.ktdg", "00000000-0000-0000-11CE-159D6F0B5C63", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "Black", "Female", "40.3", "2802.7" ]
+, [ "row-g7g9-5p8a~ws29", "00000000-0000-0000-3AE1-915F88B2FE0E", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "Black", "Female", "40.8", "2810.1" ]
+, [ "row-sguv.z9nz_we7m", "00000000-0000-0000-62D1-7681A2FA40B2", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "Black", "Female", "40.5", "2948.8" ]
+, [ "row-wihz.tn3h_95jd", "00000000-0000-0000-1A06-95E0C84E8357", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "Black", "Female", "43.1", "2853.6" ]
+, [ "row-tjqj_tgf3-budk", "00000000-0000-0000-C449-BA47B61AB2A2", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "Black", "Female", "40.8", "2970.6" ]
+, [ "row-rgda.4tet.zkts", "00000000-0000-0000-251E-20EDD1AF1DEB", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "Black", "Female", "32.5", "3304.3" ]
+, [ "row-22ag~rjuf.y9kk", "00000000-0000-0000-4942-D4F409023955", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "Black", "Female", "44.4", "2663.2" ]
+, [ "row-di4d_dqni~nxkq", "00000000-0000-0000-04BD-5321DBDB03F0", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "Black", "Female", "45.2", "2756.2" ]
+, [ "row-rr4x.v4wi.2b3p", "00000000-0000-0000-BD8F-693C302DBCEE", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "Black", "Female", "51.3", "2475.0" ]
+, [ "row-vci2_hnma-f48r", "00000000-0000-0000-9F69-645304D72EC9", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "Black", "Female", "53.0", "2476.1" ]
+, [ "row-zmyt_a6ys.m6eh", "00000000-0000-0000-38A1-9E9CFD199C40", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "Black", "Female", "48.9", "2657.8" ]
+, [ "row-mgas.54k4.htdx", "00000000-0000-0000-D0B6-869B76779587", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "Black", "Female", "47.8", "2693.2" ]
+, [ "row-8wkb_a8z4-upn7", "00000000-0000-0000-8975-DCFEF1F1BB4A", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "Black", "Female", "46.7", "2741.9" ]
+, [ "row-qiks-yhgs_d7mi", "00000000-0000-0000-8BBA-7DD70FE7C5E5", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "Black", "Female", "45.6", "2778.0" ]
+, [ "row-36r9~azbe_bw6n", "00000000-0000-0000-780C-4834C0B52A48", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "Black", "Female", "48.9", "2565.5" ]
+, [ "row-ddug.uqwn~8n62", "00000000-0000-0000-17F9-C9EA47290206", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "Black", "Female", "47.0", "2703.1" ]
+, [ "row-mqwc-szp5-v6b9", "00000000-0000-0000-6117-9166FCB2CF60", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "Black", "Female", "47.8", "2664.8" ]
+, [ "row-3yf8~nffj_pnbj", "00000000-0000-0000-AC58-FD97899AB2A7", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "Black", "Female", "49.2", "2530.1" ]
+, [ "row-75sq.8k2f~uqwc", "00000000-0000-0000-7729-D289A82D6182", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "Black", "Female", "51.5", "2362.8" ]
+, [ "row-4ppj_v6pp.6bpq", "00000000-0000-0000-49C7-08B5E24BD85E", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "Black", "Female", "54.6", "2256.1" ]
+, [ "row-jndy_drn6_938n", "00000000-0000-0000-58BE-EA7FB88B825A", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "Black", "Female", "56.0", "2174.1" ]
+, [ "row-fc8n-uzr2.cr5d", "00000000-0000-0000-538D-60E06AFC246C", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "Black", "Female", "53.7", "2213.4" ]
+, [ "row-yekn~7ry7_gfyi", "00000000-0000-0000-3C52-330700E5BDCD", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "Black", "Female", "55.2", "2136.5" ]
+, [ "row-je2g.gtvr~bwvd", "00000000-0000-0000-6685-931D50ECFBD2", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "Black", "Female", "51.4", "2278.7" ]
+, [ "row-dbu4.97vj.hq3c", "00000000-0000-0000-C4B3-12452FCC6AEC", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "Black", "Female", "52.5", "2158.5" ]
+, [ "row-shs3-s6s7~pibs", "00000000-0000-0000-C435-93551EDF7E74", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "Black", "Female", "54.3", "2057.1" ]
+, [ "row-nzty~6fcz_w43u", "00000000-0000-0000-3AE1-07201A05090F", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "Black", "Female", "56.0", "1992.4" ]
+, [ "row-tzfh~xrvd~ujmy", "00000000-0000-0000-705E-6D6478E513BD", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "Black", "Female", "54.9", "2057.5" ]
+, [ "row-96su-4xr3.88ry", "00000000-0000-0000-16EB-7F4DF2508448", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "Black", "Female", "55.3", "1945.9" ]
+, [ "row-u43z_hpqn_zfw7", "00000000-0000-0000-82C4-96EAF218F89B", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "Black", "Female", "58.2", "1803.7" ]
+, [ "row-ja22~7bsu_supp", "00000000-0000-0000-F75D-E3A8A936D768", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "Black", "Female", "56.1", "1837.6" ]
+, [ "row-dyr9~vmr3_9wt5", "00000000-0000-0000-F3EB-9ED5A51E7213", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "Black", "Female", "57.7", "1733.6" ]
+, [ "row-6wg5-kbij-xz5x", "00000000-0000-0000-6698-D1FD18BE57B4", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "Black", "Female", "59.6", "1634.8" ]
+, [ "row-k25r_86uw~dcb2", "00000000-0000-0000-06F5-DEB736A0EC36", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "Black", "Female", "61.0", "1556.8" ]
+, [ "row-vz48_43zw_9tx9", "00000000-0000-0000-AA37-D7E0F964F5DF", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "Black", "Female", "61.9", "1586.1" ]
+, [ "row-chk9.3u23.znas", "00000000-0000-0000-D7DD-03C5D025A7B8", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "Black", "Female", "62.5", "1580.0" ]
+, [ "row-tgmf_ubec-a6dm", "00000000-0000-0000-348F-3844F70CDB2F", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "Black", "Female", "62.7", "1572.2" ]
+, [ "row-sv7n.edik_9ajx", "00000000-0000-0000-E49D-45B3B6357E3F", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "Black", "Female", "62.9", "1574.1" ]
+, [ "row-b6gr_wfxj~fdfp", "00000000-0000-0000-D32E-0F267E0CA9FE", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "Black", "Female", "63.4", "1508.3" ]
+, [ "row-vux5_j52y.n9wn", "00000000-0000-0000-A53D-13F6EA7B72A1", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "Black", "Female", "63.8", "1465.0" ]
+, [ "row-tuwz_dzrs_qccg", "00000000-0000-0000-34F9-07D6C0691FAD", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "Black", "Female", "64.5", "1434.3" ]
+, [ "row-bypb-ud77.z27r", "00000000-0000-0000-79BA-24CE80C47A77", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "Black", "Female", "65.9", "1326.3" ]
+, [ "row-md5z~fcwc_mgjz", "00000000-0000-0000-C9E4-24402AC92F32", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "Black", "Female", "66.1", "1326.7" ]
+, [ "row-ycir_sc7p_xxnj", "00000000-0000-0000-C592-3CB45D5D9FDD", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "Black", "Female", "66.1", "1331.9" ]
+, [ "row-xv68-r6cv.dq42", "00000000-0000-0000-E2BF-4802E0F1BB77", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "Black", "Female", "65.5", "1374.6" ]
+, [ "row-hiuc-zyk7~hc3s", "00000000-0000-0000-4341-5E629DBFD95E", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "Black", "Female", "65.8", "1354.6" ]
+, [ "row-zas7~yq9a_ayes", "00000000-0000-0000-2C04-07795D7BDFE7", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "Black", "Female", "66.5", "1305.0" ]
+, [ "row-86sx~m5q2_fa8v", "00000000-0000-0000-D29D-74F6167116DC", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "Black", "Female", "66.3", "1340.5" ]
+, [ "row-uhp4.4sj4~bjqt", "00000000-0000-0000-2763-0A42232750A1", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "Black", "Female", "67.1", "1295.9" ]
+, [ "row-xpev~fjpm_hi45", "00000000-0000-0000-14DF-CA97CEE59ED7", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "Black", "Female", "66.9", "1324.5" ]
+, [ "row-vxfh~csxv-b42d", "00000000-0000-0000-EA00-22D800860B1D", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "Black", "Female", "66.6", "1347.8" ]
+, [ "row-jfkm.qttb.qphu", "00000000-0000-0000-02F5-465C38C4D2B8", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "Black", "Female", "67.3", "1284.1" ]
+, [ "row-fit5-7hn4~p8sq", "00000000-0000-0000-A124-B51BEC315EE6", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "Black", "Female", "67.6", "1266.0" ]
+, [ "row-etx6.mb6x~duix", "00000000-0000-0000-D3F8-26B994E000BC", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "Black", "Female", "67.6", "1274.6" ]
+, [ "row-p9cf.bat4_kqhv", "00000000-0000-0000-D758-E935F9EC2ECD", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "Black", "Female", "68.5", "1209.7" ]
+, [ "row-7zas-sigi~n8rb", "00000000-0000-0000-0585-BB266724CEB9", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "Black", "Female", "67.9", "1325.6" ]
+, [ "row-funr~2wqf_q4et", "00000000-0000-0000-0D98-96A898AEB73C", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "Black", "Female", "68.6", "1274.9" ]
+, [ "row-x4jk-v5bw.duss", "00000000-0000-0000-0421-CFC810525E5D", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "Black", "Female", "68.3", "1228.7" ]
+, [ "row-wtxx~mrc8-h6mr", "00000000-0000-0000-A333-B8CE6DBEA96B", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "Black", "Female", "68.9", "1196.8" ]
+, [ "row-h2w7-74av.ftd9", "00000000-0000-0000-834C-57E7A412A280", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "Black", "Female", "69.1", "1181.2" ]
+, [ "row-5e5t~3ukh_j3fe", "00000000-0000-0000-4073-BAE16E0FF602", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "Black", "Female", "69.3", "1179.7" ]
+, [ "row-w6an~w4kk-ifcu", "00000000-0000-0000-F9F3-FCFC865C4376", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "Black", "Female", "70.3", "1109.7" ]
+, [ "row-2vyc~i33x-y8uz", "00000000-0000-0000-6408-2954E9B9BFDB", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "Black", "Female", "71.3", "1042.4" ]
+, [ "row-rh2y-s8c4_avhf", "00000000-0000-0000-B4EF-D8287F32A960", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "Black", "Female", "71.6", "1031.2" ]
+, [ "row-nrv8_mwb5.myfh", "00000000-0000-0000-C2B6-E5D46DC4AB13", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "Black", "Female", "72.0", "1012.2" ]
+, [ "row-pn8y.xwab~ijn4", "00000000-0000-0000-B604-847B6CB25467", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "Black", "Female", "72.4", "995.1" ]
+, [ "row-fgk3_3sah_7sij", "00000000-0000-0000-7424-F1B37F3965BF", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "Black", "Female", "72.9", "967.1" ]
+, [ "row-h3hz~wxcj~wn4w", "00000000-0000-0000-88D2-1172E4B7AF60", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "Black", "Female", "72.5", "1031.8" ]
+, [ "row-eeu4.ynf2.rkxv", "00000000-0000-0000-C492-80D75CB4431B", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "Black", "Female", "73.2", "985.7" ]
+, [ "row-n2ih_n2wh.uvx5", "00000000-0000-0000-51B9-25A0A0067EEB", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "Black", "Female", "73.6", "958.8" ]
+, [ "row-3jqf~hc7v-h8wu", "00000000-0000-0000-B925-EF6AAA579AC9", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "Black", "Female", "73.5", "980.2" ]
+, [ "row-997m~2iia-iezd", "00000000-0000-0000-F04A-14137E2B8DCE", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "Black", "Female", "73.6", "974.9" ]
+, [ "row-gmat-izza-yyvk", "00000000-0000-0000-49E1-E00D5A09F025", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "Black", "Female", "73.4", "992.2" ]
+, [ "row-7577.a7q9.f7fz", "00000000-0000-0000-80D4-0C4376B90449", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "Black", "Female", "73.4", "992.7" ]
+, [ "row-d75q.xhsu~3s4q", "00000000-0000-0000-3987-3D1E1B480477", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "Black", "Female", "73.4", "988.4" ]
+, [ "row-xbik_tjeh~zsy7", "00000000-0000-0000-2F5E-D116955AB371", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "Black", "Female", "73.2", "1005.4" ]
+, [ "row-4cea.3hq3-mpqp", "00000000-0000-0000-85E9-B9B2DCA858A0", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "Black", "Female", "73.3", "995.8" ]
+, [ "row-4u57_t3nc-482u", "00000000-0000-0000-83C5-D5A97D0C44D4", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "Black", "Female", "73.6", "973.6" ]
+, [ "row-97nc_kjim~5fpp", "00000000-0000-0000-BA76-16CFAC77FEF4", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "Black", "Female", "73.8", "961.8" ]
+, [ "row-sits~sbnx_bpm4", "00000000-0000-0000-9BF2-578BE6D64F5B", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "Black", "Female", "73.9", "941.4" ]
+, [ "row-pxb7.f8sm_g5pf", "00000000-0000-0000-8E00-7E5DFA98FA6D", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "Black", "Female", "73.7", "968.6" ]
+, [ "row-n2qb~uti2-tihp", "00000000-0000-0000-993A-595FBE92B625", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "Black", "Female", "73.9", "954.0" ]
+, [ "row-7sx9_5zje_p8u9", "00000000-0000-0000-413C-CEE9EFBB66F2", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "Black", "Female", "73.9", "955.7" ]
+, [ "row-3k3d_mbvx-aypd", "00000000-0000-0000-582A-71D94F066003", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "Black", "Female", "74.2", "939.6" ]
+, [ "row-7gd9~nub4-mhc9", "00000000-0000-0000-5CE8-FA88419ACE75", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "Black", "Female", "74.7", "921.6" ]
+, [ "row-qw76.ivum_hzqz", "00000000-0000-0000-0481-6AF0212483BC", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "Black", "Female", "74.8", "921.0" ]
+, [ "row-eeme~whux.3e5d", "00000000-0000-0000-FFA3-00164724D32D", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "Black", "Female", "74.7", "933.6" ]
+, [ "row-634v-umjv_378n", "00000000-0000-0000-AB7E-DE74E7FD0225", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "Black", "Female", "75.1", "927.6" ]
+, [ "row-rm88~ckzy~8gur", "00000000-0000-0000-150B-FFA8DE9578BD", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "Black", "Female", "75.3", "917.9" ]
+, [ "row-qmsk.eb78_4b2j", "00000000-0000-0000-415A-353FFEE69044", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "Black", "Female", "75.4", "913.5" ]
+, [ "row-39f2-9ijc-yerm", "00000000-0000-0000-22CC-97FAABF7D90D", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "Black", "Female", "75.7", "898.3" ]
+, [ "row-5xtr_m228-2edv", "00000000-0000-0000-CAB3-0DE7A221A06F", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "Black", "Female", "76.1", "869.8" ]
+, [ "row-j9j6_3tu2.ertm", "00000000-0000-0000-2461-130EC0ABCBB6", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "Black", "Female", "76.2", "862.7" ]
+, [ "row-ymkp_jih2-nztv", "00000000-0000-0000-5E71-64A1FCAFC066", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "Black", "Female", "76.7", "828.4" ]
+, [ "row-uqhb~zn6j.fde2", "00000000-0000-0000-6AA5-CE7C2295697A", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "Black", "Female", "77.0", "808.1" ]
+, [ "row-qf3x-rrs3_249f", "00000000-0000-0000-8710-80EC56C60EBA", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "Black", "Female", "77.3", "792.0" ]
+, [ "row-45qr_efnr_4irp", "00000000-0000-0000-4A9A-0AD02E1F19E6", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "Black", "Female", "77.7", "763.3" ]
+, [ "row-6p5f.pi6j-awtx", "00000000-0000-0000-2E97-8F6833FC6821", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "Black", "Female", "78.0", "752.5" ]
+, [ "row-wzzf.6cvv-873w", "00000000-0000-0000-4B6F-6C752D1FF498", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "Black", "Female", "78.2", "739.8" ]
+, [ "row-zq7d.yeqm.yksw", "00000000-0000-0000-39DD-6647F0C15A2F", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "Black", "Female", "78.4", "723.9" ]
+, [ "row-tcrv_kbnq_77jw", "00000000-0000-0000-5602-14352C6B761F", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "Black", "Female", "78.4", "720.6" ]
+, [ "row-g4nr~3kby.ghh2", "00000000-0000-0000-D2AD-9D2C57F364EE", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "Black", "Female", "78.5", "713.3" ]
+, [ "row-kf5f_efin~zc7i", "00000000-0000-0000-962D-99FD5AC424A9", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "Black", "Female", "78.5", "710.8" ]
+, [ "row-jcbi-u473-ji5v", "00000000-0000-0000-07C6-0A8E64FC574A", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "Black", "Female", "78.3", "712.9" ]
+, [ "row-3gpg~g7fy.3pa6", "00000000-0000-0000-C8FE-491BF8939226", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "Black", "Female", "78.5", "706.1" ]
+, [ "row-pzq3_n463_mbpx", "00000000-0000-0000-F10E-48DB34671D0E", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "Black", "Male", "32.5", "3576.5" ]
+, [ "row-yf9p.q8bp.esey", "00000000-0000-0000-2FA6-55E11B448F71", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "Black", "Male", "32.2", "3524.8" ]
+, [ "row-c6xy.ekzd~mb2f", "00000000-0000-0000-8C69-F48C649D1592", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "Black", "Male", "32.9", "3399.8" ]
+, [ "row-3vj9~82kj~zuch", "00000000-0000-0000-8498-635FBA009B4C", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "Black", "Male", "31.7", "3546.5" ]
+, [ "row-k5d3-bk7r_48ns", "00000000-0000-0000-1C64-070D9069098E", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "Black", "Male", "29.1", "3845.7" ]
+, [ "row-633u.dnxc~ufcs", "00000000-0000-0000-219D-40003BE77A18", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "Black", "Male", "29.6", "3654.7" ]
+, [ "row-5rt4~uva4-ubi4", "00000000-0000-0000-E3E2-7082ABF01A98", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "Black", "Male", "31.8", "3341.0" ]
+, [ "row-dr4r_vwxn_icza", "00000000-0000-0000-66D1-FF95007B3639", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "Black", "Male", "31.1", "3408.1" ]
+, [ "row-wvca-9kk7-dsj5", "00000000-0000-0000-38EF-037686A294FA", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "Black", "Male", "33.8", "3140.0" ]
+, [ "row-79s8~kcvv~bumr", "00000000-0000-0000-4EAF-0DE86DB7592F", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "Black", "Male", "34.2", "3149.0" ]
+, [ "row-mku4_ps4z-6pp9", "00000000-0000-0000-5175-FB098120B8FC", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "Black", "Male", "33.8", "3087.5" ]
+, [ "row-6mwg.bvac_mzhb", "00000000-0000-0000-B575-AA67E5556940", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "Black", "Male", "34.6", "3094.2" ]
+, [ "row-tvw4-w8ks~3be4", "00000000-0000-0000-2A0A-84CD49B5B5FD", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "Black", "Male", "35.9", "3114.2" ]
+, [ "row-z353~ffhd-7fpe", "00000000-0000-0000-A2B1-0DF9079CEFBA", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "Black", "Male", "36.7", "3011.9" ]
+, [ "row-h4d3~i85x_gbwp", "00000000-0000-0000-E70D-74AA774AEA66", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "Black", "Male", "37.1", "3017.4" ]
+, [ "row-xjay.ka7u_hju4", "00000000-0000-0000-3BE8-070AB7A4A001", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "Black", "Male", "37.5", "3104.1" ]
+, [ "row-8ygv-idap.4yxp", "00000000-0000-0000-A294-93ED3C952651", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "Black", "Male", "39.6", "3035.1" ]
+, [ "row-dewy-5csz~jjx3", "00000000-0000-0000-364F-6BA3B58FAA73", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "Black", "Male", "37.0", "3172.8" ]
+, [ "row-kn7d-av9h~8jru", "00000000-0000-0000-F7AC-57C63A300851", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "Black", "Male", "29.9", "3532.5" ]
+, [ "row-8zmr~fesw~qeeg", "00000000-0000-0000-447F-6D68A883DA62", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "Black", "Male", "44.5", "2650.0" ]
+, [ "row-9qfe-jd5r~hhjy", "00000000-0000-0000-5762-E2B4A18C669A", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "Black", "Male", "45.5", "2748.4" ]
+, [ "row-fta4_gnqx~i2ai", "00000000-0000-0000-FBD6-C8A2CD620C10", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "Black", "Male", "51.6", "2461.2" ]
+, [ "row-qs5u-zp57.yyir", "00000000-0000-0000-EE9C-0AA6E32E3E66", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "Black", "Male", "51.8", "2560.4" ]
+, [ "row-tmha-yiz2-vcu9", "00000000-0000-0000-A062-5DFC5EDEEC7C", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "Black", "Male", "47.7", "2803.9" ]
+, [ "row-m2x4_fgag.dzgh", "00000000-0000-0000-7373-DABB94DCB5C5", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "Black", "Male", "45.5", "2947.0" ]
+, [ "row-p4jq_rcc3.38xw", "00000000-0000-0000-2997-8658698B358E", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "Black", "Male", "44.9", "3000.7" ]
+, [ "row-e7jr_hgxd.7hqy", "00000000-0000-0000-50D4-AFC7E07A479C", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "Black", "Male", "43.7", "3054.7" ]
+, [ "row-rcrp~6jbf.xgmk", "00000000-0000-0000-762E-E0E97693B86D", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "Black", "Male", "47.6", "2801.1" ]
+, [ "row-th7h-wstu.dwxt", "00000000-0000-0000-9B6A-C0DA4D3E8914", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "Black", "Male", "45.6", "2980.3" ]
+, [ "row-mdfc.n2ju~f8n9", "00000000-0000-0000-B62C-ECC1ED019858", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "Black", "Male", "45.7", "3012.6" ]
+, [ "row-v8v2~z2ea.xsik", "00000000-0000-0000-5723-FE08400D963C", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "Black", "Male", "47.3", "2845.5" ]
+, [ "row-np7y_p59r.wgi9", "00000000-0000-0000-B521-DA942167FC7D", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "Black", "Male", "49.5", "2680.3" ]
+, [ "row-ckfw~e3qf.gjy2", "00000000-0000-0000-770C-E7F1B1D60A50", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "Black", "Male", "52.8", "2550.0" ]
+, [ "row-esgf.t5j8~u9er", "00000000-0000-0000-89F1-5C694D0B3C42", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "Black", "Male", "53.5", "2452.1" ]
+, [ "row-gvde_nre2~znu3", "00000000-0000-0000-6037-B532BF35BCAB", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "Black", "Male", "50.2", "2567.5" ]
+, [ "row-ubqj~4b8i~e4i6", "00000000-0000-0000-B254-FE747C2C11D7", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "Black", "Male", "51.3", "2502.9" ]
+, [ "row-9akh-g44w.5qg8", "00000000-0000-0000-8E75-6C62BA004830", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "Black", "Male", "47.0", "2722.4" ]
+, [ "row-2bjx-p27e_38um", "00000000-0000-0000-7A6A-2F54E128D029", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "Black", "Male", "48.3", "2596.1" ]
+, [ "row-5hjf.nca3_tcm2", "00000000-0000-0000-B6B2-505C9F38D844", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "Black", "Male", "51.7", "2384.3" ]
+, [ "row-hhqj-pep7_et7b", "00000000-0000-0000-A853-0D0104D8FF62", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "Black", "Male", "53.2", "2328.1" ]
+, [ "row-v9st-7v6e-upzx", "00000000-0000-0000-B9D1-1134E8C9FCF4", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "Black", "Male", "51.5", "2458.9" ]
+, [ "row-nnbm_wezf_wydj", "00000000-0000-0000-FFA5-FB3FFBFFBDA8", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "Black", "Male", "52.5", "2351.1" ]
+, [ "row-sd2g~cd2a-uq3e", "00000000-0000-0000-16A6-1D288BD14343", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "Black", "Male", "55.4", "2187.8" ]
+, [ "row-9mtr.uqt5_hr2p", "00000000-0000-0000-149F-77FB36A8C73C", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "Black", "Male", "55.4", "2189.9" ]
+, [ "row-ww3s-axxx-ty45", "00000000-0000-0000-6556-AD906BBBA113", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "Black", "Male", "55.8", "2084.9" ]
+, [ "row-se5q~hrei-avrk", "00000000-0000-0000-F79A-DB7D7E8C0333", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "Black", "Male", "56.1", "2002.7" ]
+, [ "row-s439~5scw.bzcb", "00000000-0000-0000-5B4D-0C169486461F", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "Black", "Male", "57.5", "1878.6" ]
+, [ "row-n3da~3hmc.zfba", "00000000-0000-0000-42AC-D2F0964DBC38", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "Black", "Male", "57.9", "1922.8" ]
+, [ "row-ipek_94i8~cisg", "00000000-0000-0000-0746-334263EF98C7", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "Black", "Male", "58.1", "1954.3" ]
+, [ "row-yq5z-tw3d.38sx", "00000000-0000-0000-8361-1B8E4248A135", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "Black", "Male", "58.9", "1915.4" ]
+, [ "row-dkbf-bc8h_aaw7", "00000000-0000-0000-19F1-86543824B431", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "Black", "Male", "59.1", "1949.5" ]
+, [ "row-rfhg-3m93-bism", "00000000-0000-0000-C70D-D35ABEE397AC", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "Black", "Male", "59.2", "1903.4" ]
+, [ "row-djzv_4dxq_487i", "00000000-0000-0000-A171-CF970914308C", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "Black", "Male", "59.1", "1894.1" ]
+, [ "row-4ax2~6gr5-84hs", "00000000-0000-0000-223A-B76BB263DBA7", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "Black", "Male", "59.7", "1863.1" ]
+, [ "row-7dhu~sbmz.3pc4", "00000000-0000-0000-C4A1-42A25CC49AAA", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "Black", "Male", "61.1", "1726.6" ]
+, [ "row-bswx.v2zc~n7vb", "00000000-0000-0000-3A0F-109CD3116591", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "Black", "Male", "61.4", "1707.5" ]
+, [ "row-9ngz_ugwg~u5ia", "00000000-0000-0000-044B-043175C0B894", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "Black", "Male", "61.3", "1724.1" ]
+, [ "row-t3mn~45j4.kjs7", "00000000-0000-0000-28F2-F6FD4F38E6B5", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "Black", "Male", "60.7", "1797.0" ]
+, [ "row-67cp-3sav_yxie", "00000000-0000-0000-4B31-B2C7DE5DE65D", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "Black", "Male", "61.0", "1779.2" ]
+, [ "row-mwdh.8eyw~ea3u", "00000000-0000-0000-EB8C-2E493F6EF886", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "Black", "Male", "61.3", "1724.7" ]
+, [ "row-bud6_pri4.t9pt", "00000000-0000-0000-3B31-14B0437639EE", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "Black", "Male", "61.1", "1777.6" ]
+, [ "row-5g7k-57a5-atij", "00000000-0000-0000-AEEA-1E095DE61954", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "Black", "Male", "62.0", "1713.3" ]
+, [ "row-nuss.w3nt_ahdn", "00000000-0000-0000-8535-26BE0333EBBC", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "Black", "Male", "61.6", "1775.4" ]
+, [ "row-as73-dt8u.4yu5", "00000000-0000-0000-38AB-BA77B65D3D28", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "Black", "Male", "61.0", "1859.0" ]
+, [ "row-9p2n~4pdu_43ag", "00000000-0000-0000-FF94-F28A625E5672", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "Black", "Male", "61.3", "1768.1" ]
+, [ "row-fkau~6die~9abd", "00000000-0000-0000-A8CA-11E7E90BE91D", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "Black", "Male", "61.2", "1791.0" ]
+, [ "row-6ut9_5vwf-dcg9", "00000000-0000-0000-8218-C949BDA2DAC1", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "Black", "Male", "60.9", "1832.4" ]
+, [ "row-x3hj~7dbf~v3uz", "00000000-0000-0000-0AF6-80D80A6EC836", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "Black", "Male", "61.4", "1767.2" ]
+, [ "row-sdfy~h7s5-32w6", "00000000-0000-0000-895F-DC2698D90D86", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "Black", "Male", "60.4", "1976.8" ]
+, [ "row-pert~5bzm~bcig", "00000000-0000-0000-1283-77E041AB36CC", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "Black", "Male", "60.6", "1934.4" ]
+, [ "row-7sky~bnbw.zuak", "00000000-0000-0000-965F-36578616D7B7", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "Black", "Male", "60.0", "1873.9" ]
+, [ "row-6b66-65f6~8kkj", "00000000-0000-0000-3F04-61A7CBF949C2", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "Black", "Male", "60.5", "1836.1" ]
+, [ "row-bd3t~wz42~3zma", "00000000-0000-0000-859A-CACF24AFC72B", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "Black", "Male", "60.4", "1871.8" ]
+, [ "row-gb28_iqz6_m6w7", "00000000-0000-0000-5E6F-776BC59794DA", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "Black", "Male", "60.9", "1849.5" ]
+, [ "row-rjx9_rkhq-q9mk", "00000000-0000-0000-B623-34F30885B581", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "Black", "Male", "61.7", "1769.5" ]
+, [ "row-2vvx_7cqj.q4de", "00000000-0000-0000-14F5-B59884773AA3", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "Black", "Male", "62.4", "1697.0" ]
+, [ "row-unbd~d6ww_cfpy", "00000000-0000-0000-69E6-76833407AB93", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "Black", "Male", "62.9", "1676.0" ]
+, [ "row-9ci8~r9wz-8qck", "00000000-0000-0000-766A-7360CAD0DBA4", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "Black", "Male", "63.4", "1647.9" ]
+, [ "row-6pyj_zmww-yqgk", "00000000-0000-0000-C1AB-120F07DEF7F9", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "Black", "Male", "63.7", "1626.9" ]
+, [ "row-yjwy-h2n9~ywj2", "00000000-0000-0000-B398-AFE1C65253D2", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "Black", "Male", "64.0", "1601.5" ]
+, [ "row-8jmz_bfg3_rkf2", "00000000-0000-0000-2811-9DB83952874A", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "Black", "Male", "63.8", "1695.5" ]
+, [ "row-6rw9.y8df_gzk9", "00000000-0000-0000-5D4B-A905E67DB746", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "Black", "Male", "64.5", "1626.6" ]
+, [ "row-dq93~dfm8.xfbz", "00000000-0000-0000-9027-0258E98CA7B6", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "Black", "Male", "65.1", "1580.0" ]
+, [ "row-5ew6-9gu8~ng7s", "00000000-0000-0000-B25A-2F470D91FC60", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "Black", "Male", "65.2", "1600.5" ]
+, [ "row-evmq_6dmf~vztv", "00000000-0000-0000-AF88-AF7C67287E67", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "Black", "Male", "65.3", "1597.1" ]
+, [ "row-i7pt_scxs~sfau", "00000000-0000-0000-B7C9-A54152923F03", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "Black", "Male", "65.0", "1632.9" ]
+, [ "row-kpv2-4t4p~79t2", "00000000-0000-0000-292F-9658BF9E83DF", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "Black", "Male", "64.8", "1648.4" ]
+, [ "row-vcyf~iija_it3v", "00000000-0000-0000-5FB7-232352382955", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "Black", "Male", "64.7", "1646.3" ]
+, [ "row-vv26_vezc~pmsy", "00000000-0000-0000-6E6D-FBED8EBAC51B", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "Black", "Male", "64.4", "1673.1" ]
+, [ "row-bhir.h35g_qn4m", "00000000-0000-0000-1CBF-AC464067F550", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "Black", "Male", "64.3", "1666.1" ]
+, [ "row-ge2j-m948.s34r", "00000000-0000-0000-B261-4FD53CB41E72", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "Black", "Male", "64.5", "1642.4" ]
+, [ "row-f8qu.d5f4_n3db", "00000000-0000-0000-6B06-601EB37E78CD", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "Black", "Male", "64.6", "1624.1" ]
+, [ "row-nec4-7e6r_4z5a", "00000000-0000-0000-0A76-7CB86A4429D3", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "Black", "Male", "65.0", "1586.2" ]
+, [ "row-rvh4_gkvi.hjjw", "00000000-0000-0000-01D1-00259B76829A", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "Black", "Male", "64.6", "1631.1" ]
+, [ "row-dj6n~r22w_s8ck", "00000000-0000-0000-61AC-7CD1563C4F01", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "Black", "Male", "64.9", "1591.9" ]
+, [ "row-u3jj-8jmk_g4aq", "00000000-0000-0000-FC51-2E1AA12A59BA", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "Black", "Male", "65.2", "1585.2" ]
+, [ "row-i8x8_x5ai-uapx", "00000000-0000-0000-BE73-84F66EB60BFB", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "Black", "Male", "66.1", "1523.2" ]
+, [ "row-hawz.pimd.uibp", "00000000-0000-0000-B2C1-DEA97C6F85EA", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "Black", "Male", "67.2", "1458.2" ]
+, [ "row-87es.inqj-cmr2", "00000000-0000-0000-F64F-456F1CAF39C8", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "Black", "Male", "67.6", "1429.8" ]
+, [ "row-bq2k-6ryv.z73r", "00000000-0000-0000-92BA-D20C38516316", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "Black", "Male", "67.8", "1432.6" ]
+, [ "row-gwtz.7fkk-q28v", "00000000-0000-0000-A290-A99079C1530B", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "Black", "Male", "68.2", "1403.5" ]
+, [ "row-uvgj_f9ty-njse", "00000000-0000-0000-D36C-16528C3ED24F", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "Black", "Male", "68.5", "1380.5" ]
+, [ "row-ns8f.sh7h-mxnp", "00000000-0000-0000-F521-CE2CEDE3AAFA", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "Black", "Male", "68.7", "1364.8" ]
+, [ "row-rdzq-y3jk.g4ip", "00000000-0000-0000-E27D-B29B19E2ABE6", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "Black", "Male", "68.9", "1343.5" ]
+, [ "row-dvw6~r835-7xnu", "00000000-0000-0000-B47F-5F5E19A51AE6", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "Black", "Male", "69.4", "1296.9" ]
+, [ "row-bira-5diw~jh6i", "00000000-0000-0000-AF9E-B331CA2E66C6", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "Black", "Male", "69.5", "1281.3" ]
+, [ "row-f8vx_4g4r_exnc", "00000000-0000-0000-AC95-0C36B60989DE", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "Black", "Male", "69.9", "1239.5" ]
+, [ "row-qh88-2uis-xf8s", "00000000-0000-0000-ED68-DFB55842B15F", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "Black", "Male", "70.3", "1204.8" ]
+, [ "row-nigp~2q4y.r42n", "00000000-0000-0000-320D-0F64A6029BF3", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "Black", "Male", "70.9", "1168.0" ]
+, [ "row-txwx~tpfe.5v2w", "00000000-0000-0000-BDA9-830986C546CC", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "Black", "Male", "71.4", "1123.1" ]
+, [ "row-a4xe~ywmx.4k8s", "00000000-0000-0000-5D48-329DFD9BA53F", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "Black", "Male", "71.8", "1104.0" ]
+, [ "row-t242~q8sz-gkwv", "00000000-0000-0000-A62F-067F5960A7D8", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "Black", "Male", "72.2", "1067.1" ]
+, [ "row-td3k.6qib_a5z3", "00000000-0000-0000-66D4-36BCE21F73D9", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "Black", "Male", "72.3", "1058.6" ]
+, [ "row-g9vz_amds-bmyn", "00000000-0000-0000-8390-E34C464E04E2", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "Black", "Male", "72.3", "1052.8" ]
+, [ "row-63as.rkna_mjrx", "00000000-0000-0000-E3A2-D42481F9D632", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "Black", "Male", "72.5", "1034.0" ]
+, [ "row-ye5e.4za2~yc92", "00000000-0000-0000-E27A-0419608330E1", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "Black", "Male", "72.2", "1040.3" ]
+, [ "row-min4_5vcb.d5ya", "00000000-0000-0000-7FB4-5BB59D752B21", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "Black", "Male", "72.0", "1049.5" ]
+, [ "row-tydr-2d4r~bscj", "00000000-0000-0000-41A9-8C0DE662A56F", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "Black", "Male", "71.9", "1049.5" ]
+, [ "row-t3w3.nw8n.653r", "00000000-0000-0000-B9CB-640292625680", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "White", "Both Sexes", "47.6", "2501.2" ]
+, [ "row-8pj6_y86c-kdi3", "00000000-0000-0000-BD45-F1D44C4A77A9", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "White", "Both Sexes", "49.4", "2456.2" ]
+, [ "row-ximm~fqxr_acu6", "00000000-0000-0000-BB93-DA6D10C351E7", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "White", "Both Sexes", "51.9", "2284.3" ]
+, [ "row-65yj_tb26.kerw", "00000000-0000-0000-4867-C7258FF29AB5", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "White", "Both Sexes", "50.9", "2359.8" ]
+, [ "row-rava.p7yp.x4hu", "00000000-0000-0000-926E-E5A9353FF072", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "White", "Both Sexes", "48.0", "2481.9" ]
+, [ "row-5zbu_36bg~eyff", "00000000-0000-0000-6D2D-9DCE820E099E", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "White", "Both Sexes", "49.1", "2404.1" ]
+, [ "row-ck7c_4jgy~tc4b", "00000000-0000-0000-855C-87ED60ABF413", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "White", "Both Sexes", "49.3", "2374.8" ]
+, [ "row-aqza.ynj4_2hjt", "00000000-0000-0000-5E43-43975E2CAA69", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "White", "Both Sexes", "48.1", "2470.8" ]
+, [ "row-94qr_caz2~kghe", "00000000-0000-0000-4118-03AB7CDE36ED", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "White", "Both Sexes", "51.5", "2278.1" ]
+, [ "row-ycvg_r2ng~8tma", "00000000-0000-0000-145D-74D53828DF0F", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "White", "Both Sexes", "52.5", "2228.5" ]
+, [ "row-fkgu-wz98-bapt", "00000000-0000-0000-321A-A4420571DE47", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "White", "Both Sexes", "50.3", "2299.4" ]
+, [ "row-zkge~xf7n.i25y", "00000000-0000-0000-F1A4-9B83CF47F301", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "White", "Both Sexes", "53.0", "2221.3" ]
+, [ "row-9wng~84bv_cxj6", "00000000-0000-0000-3131-25F5E2A180F2", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "White", "Both Sexes", "53.9", "2187.9" ]
+, [ "row-b8mk_49rb_gz3p", "00000000-0000-0000-A4C5-90EB1CD4F5F4", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "White", "Both Sexes", "53.0", "2176.7" ]
+, [ "row-87qw~3j72.trdg", "00000000-0000-0000-3A6D-F3FE205827E0", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "White", "Both Sexes", "54.9", "2116.8" ]
+, [ "row-8qyz_j7fd_5ggk", "00000000-0000-0000-99DD-D4761EB1CE5A", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "White", "Both Sexes", "55.1", "2139.4" ]
+, [ "row-uz89~wpun-9c3y", "00000000-0000-0000-2F16-D5AE9CDB9C7A", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "White", "Both Sexes", "52.5", "2223.9" ]
+, [ "row-z63e~nnr8_aiyh", "00000000-0000-0000-C96A-065961AF0B94", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "White", "Both Sexes", "52.0", "2221.5" ]
+, [ "row-uzta~4kiy_rsf5", "00000000-0000-0000-D827-16E845C2277D", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "White", "Both Sexes", "39.8", "2477.7" ]
+, [ "row-9q5b~kghj_f6d6", "00000000-0000-0000-A741-250FC29A6199", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "White", "Both Sexes", "55.8", "2005.6" ]
+, [ "row-7h6s_srsn.bkav", "00000000-0000-0000-5D35-0C61F9C7A161", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "White", "Both Sexes", "54.9", "2096.3" ]
+, [ "row-8vm9.unfd_8pjj", "00000000-0000-0000-D75D-72E78F2D1999", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "White", "Both Sexes", "61.8", "1914.9" ]
+, [ "row-f6tr_dpvz.x56s", "00000000-0000-0000-172B-6BB228F05553", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "White", "Both Sexes", "60.4", "2004.4" ]
+, [ "row-ej7y-75sj.fizt", "00000000-0000-0000-45CD-4648A1B4F3E9", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "White", "Both Sexes", "58.3", "2087.0" ]
+, [ "row-i3qw.tdkj-hkx4", "00000000-0000-0000-1F4A-853E4D41235A", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "White", "Both Sexes", "61.4", "1968.7" ]
+, [ "row-75ex_v34i~ph4y", "00000000-0000-0000-B669-7A4AA8716CE5", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "White", "Both Sexes", "60.7", "1999.1" ]
+, [ "row-7veg_7ixh.fhty", "00000000-0000-0000-C297-C04E23A87024", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "White", "Both Sexes", "58.2", "2078.8" ]
+, [ "row-7cnw_37kt~82iw", "00000000-0000-0000-3FB7-9F0FEA81AE13", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "White", "Both Sexes", "62.0", "1925.6" ]
+, [ "row-aetf-miif_ewsj", "00000000-0000-0000-25DE-17B0F8A531C9", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "White", "Both Sexes", "58.4", "2053.0" ]
+, [ "row-32xn-m2w3-kmi3", "00000000-0000-0000-7C14-2B68747D19E9", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "White", "Both Sexes", "58.6", "2006.8" ]
+, [ "row-z4w3-7tur.gsn3", "00000000-0000-0000-DAA8-C576B8353853", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "White", "Both Sexes", "61.4", "1870.7" ]
+, [ "row-zerj_3gkw-cuvi", "00000000-0000-0000-1D8F-4704401A08A9", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "White", "Both Sexes", "62.6", "1832.5" ]
+, [ "row-4uiu.nbif.5vbt", "00000000-0000-0000-050F-186EEAC34ACA", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "White", "Both Sexes", "63.2", "1845.1" ]
+, [ "row-j2z6.tghv.xd2q", "00000000-0000-0000-253F-17A903AD1666", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "White", "Both Sexes", "64.3", "1800.5" ]
+, [ "row-xfgj~vtdw.uumv", "00000000-0000-0000-57DF-B00F5137711D", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "White", "Both Sexes", "62.4", "1834.0" ]
+, [ "row-jp8u~gwk6.bphb", "00000000-0000-0000-BBEE-842BA959928A", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "White", "Both Sexes", "62.9", "1809.9" ]
+, [ "row-qyfn.4vmd_zgyk", "00000000-0000-0000-09AF-76CDA23D2F63", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "White", "Both Sexes", "59.8", "1906.6" ]
+, [ "row-deit.dduh-judb", "00000000-0000-0000-AEAE-4E86A2D4AD9F", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "White", "Both Sexes", "61.4", "1829.1" ]
+, [ "row-gsuw_r9ve~sfmr", "00000000-0000-0000-A0FB-CE83D223344A", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "White", "Both Sexes", "65.0", "1714.8" ]
+, [ "row-3wqy~5pa7_vpiw", "00000000-0000-0000-A817-BB385A81184C", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "White", "Both Sexes", "64.9", "1724.0" ]
+, [ "row-g25n~xue5.9jwv", "00000000-0000-0000-8F7F-9B242421CE43", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "White", "Both Sexes", "64.2", "1735.3" ]
+, [ "row-h2yt_wtmw-i8k8", "00000000-0000-0000-AAA0-2D73AC1086BD", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "White", "Both Sexes", "66.2", "1645.0" ]
+, [ "row-hfhg~4zra~5cij", "00000000-0000-0000-487F-BFFEC80BCEC2", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "White", "Both Sexes", "67.3", "1594.8" ]
+, [ "row-a6g2-k8y6.yh4n", "00000000-0000-0000-E744-FAB2327BBFF0", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "White", "Both Sexes", "64.2", "1665.8" ]
+, [ "row-wiag~7vek_vb63", "00000000-0000-0000-F9D1-5FED21514B2A", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "White", "Both Sexes", "66.2", "1582.8" ]
+, [ "row-v9jq~stir-ccv7", "00000000-0000-0000-521C-2D5D0071298F", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "White", "Both Sexes", "66.8", "1544.3" ]
+, [ "row-vdi7_sswp~xkda", "00000000-0000-0000-D3B8-9D8B681EAD0D", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "White", "Both Sexes", "67.5", "1505.0" ]
+, [ "row-jd8d.9d7b_5jt4", "00000000-0000-0000-3AAB-4BBB859442AA", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "White", "Both Sexes", "67.6", "1503.5" ]
+, [ "row-4b73.hgpi~5kvu", "00000000-0000-0000-0DBF-BF7926770645", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "White", "Both Sexes", "68.0", "1469.9" ]
+, [ "row-2q9v-bs6n_3gck", "00000000-0000-0000-0427-37385B7B2D99", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "White", "Both Sexes", "68.8", "1424.3" ]
+, [ "row-mwe8.imsg~6sjw", "00000000-0000-0000-50C5-C4220B806CD7", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "White", "Both Sexes", "69.1", "1410.8" ]
+, [ "row-yf2z_nrcz~y2fg", "00000000-0000-0000-054E-634DE3665A31", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "White", "Both Sexes", "69.3", "1391.0" ]
+, [ "row-9b83~hv6f.ykkj", "00000000-0000-0000-D4FB-A5437F679AA5", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "White", "Both Sexes", "69.5", "1361.7" ]
+, [ "row-wp49.f29m-y5r2", "00000000-0000-0000-054E-8C607DDD621A", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "White", "Both Sexes", "69.7", "1354.6" ]
+, [ "row-mniy~ajwn~d5ca", "00000000-0000-0000-400D-F28E3908C192", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "White", "Both Sexes", "70.5", "1288.6" ]
+, [ "row-tpyb~4236~eytu", "00000000-0000-0000-3BD7-F68788DD910A", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "White", "Both Sexes", "70.5", "1308.3" ]
+, [ "row-ypmz.rk2v_hwew", "00000000-0000-0000-08AA-CAFCB0024A7C", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "White", "Both Sexes", "70.5", "1309.0" ]
+, [ "row-vsu9.wvbt.3e8n", "00000000-0000-0000-F1CF-AECA33EC5FFF", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "White", "Both Sexes", "70.3", "1328.7" ]
+, [ "row-4gza-iem5~dym4", "00000000-0000-0000-53C4-F36B23CFFC0C", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "White", "Both Sexes", "70.5", "1316.3" ]
+, [ "row-d8dj.q9pu-5ih4", "00000000-0000-0000-0D3F-788286C5EBDF", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "White", "Both Sexes", "70.7", "1291.9" ]
+, [ "row-xqak~d849-u6kk", "00000000-0000-0000-DE1B-CD90B984A611", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "White", "Both Sexes", "70.6", "1311.3" ]
+, [ "row-m5ma-85qp-sttb", "00000000-0000-0000-F43B-2C3077A0FC54", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "White", "Both Sexes", "71.0", "1272.2" ]
+, [ "row-3yaj.3fdb~f5ru", "00000000-0000-0000-6EEF-F30301C24999", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "White", "Both Sexes", "70.9", "1292.4" ]
+, [ "row-h6ti~ppms~g4j4", "00000000-0000-0000-C5B6-29AD6DBBB06A", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "White", "Both Sexes", "70.8", "1312.5" ]
+, [ "row-ugud.gfsq.4hji", "00000000-0000-0000-0155-3449EDB4A3A7", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "White", "Both Sexes", "71.0", "1275.2" ]
+, [ "row-wzi2.exdg-iikg", "00000000-0000-0000-114E-7D3BC5AA6143", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "White", "Both Sexes", "71.1", "1278.3" ]
+, [ "row-4xw4.4qe7_g6zk", "00000000-0000-0000-82B0-80D2F7F202C1", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "White", "Both Sexes", "71.1", "1278.7" ]
+, [ "row-ftm7~kyq3~cz7u", "00000000-0000-0000-6B80-875151A4A439", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "White", "Both Sexes", "71.4", "1246.4" ]
+, [ "row-p26x~mkzq-gg2t", "00000000-0000-0000-BF0B-67A6937F1C6C", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "White", "Both Sexes", "71.1", "1271.4" ]
+, [ "row-yypd~xmy3-eqex", "00000000-0000-0000-170A-9A46E072569A", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "White", "Both Sexes", "71.4", "1240.2" ]
+, [ "row-f633.bqyr~zai5", "00000000-0000-0000-F104-9AE8FE75F8BE", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "White", "Both Sexes", "71.7", "1193.3" ]
+, [ "row-5mxj.5phh~3auz", "00000000-0000-0000-A6F6-FD8055D0B310", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "White", "Both Sexes", "72.0", "1183.8" ]
+, [ "row-nw6f_t2gy_wjgr", "00000000-0000-0000-80D1-89DCABC64FBC", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "White", "Both Sexes", "72.0", "1185.3" ]
+, [ "row-gtak_g8em_guzx", "00000000-0000-0000-F1F2-057AEF2CD8A5", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "White", "Both Sexes", "72.2", "1171.5" ]
+, [ "row-edgq~2e7k-bkm2", "00000000-0000-0000-C824-D09A366A16CF", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "White", "Both Sexes", "72.8", "1125.2" ]
+, [ "row-npp6.ycyd_t3cy", "00000000-0000-0000-0A12-E372B05B4DF1", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "White", "Both Sexes", "73.4", "1069.4" ]
+, [ "row-spgu.bduv~jk4h", "00000000-0000-0000-A470-9F721288D8AC", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "White", "Both Sexes", "73.6", "1060.0" ]
+, [ "row-rnng.x9k9-9yks", "00000000-0000-0000-E07F-DA19F94B9317", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "White", "Both Sexes", "74.0", "1027.1" ]
+, [ "row-uted-fq8c_m5kf", "00000000-0000-0000-B3E2-67DEE890FF1F", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "White", "Both Sexes", "74.1", "1020.1" ]
+, [ "row-um9k-xkc2.ehgk", "00000000-0000-0000-F9C2-90626878A922", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "White", "Both Sexes", "74.6", "986.8" ]
+, [ "row-fvm5-9v7n~ktqb", "00000000-0000-0000-78F8-669CA67DDCDD", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "White", "Both Sexes", "74.4", "1012.5" ]
+, [ "row-f3w6-nrjs-862g", "00000000-0000-0000-F0EB-E05AD2C09638", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "White", "Both Sexes", "74.8", "984.0" ]
+, [ "row-rh4e~asvc-we2d", "00000000-0000-0000-EC53-EE1510F4FF8B", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "White", "Both Sexes", "75.1", "963.5" ]
+, [ "row-x94k~ki4x-5x6y", "00000000-0000-0000-863C-CB90E6BD82C8", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "White", "Both Sexes", "75.2", "967.4" ]
+, [ "row-q3kq~633w.8uju", "00000000-0000-0000-D34B-A08D785B397B", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "White", "Both Sexes", "75.3", "959.4" ]
+, [ "row-5niq.8ej7_kjwe", "00000000-0000-0000-6278-7B7FA7A1191D", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "White", "Both Sexes", "75.3", "963.4" ]
+, [ "row-xaii~c72h.ism2", "00000000-0000-0000-69A3-DD8D51A38CAE", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "White", "Both Sexes", "75.4", "952.8" ]
+, [ "row-z9ij~mwsr-rshc", "00000000-0000-0000-7E41-63151CE0C5E0", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "White", "Both Sexes", "75.6", "943.2" ]
+, [ "row-ivzn_as7t-9kij", "00000000-0000-0000-DA0B-01FFF76802C9", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "White", "Both Sexes", "75.6", "947.2" ]
+, [ "row-6k6v-nzy5-xza9", "00000000-0000-0000-9D8F-6CBD565B0CCC", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "White", "Both Sexes", "75.9", "919.8" ]
+, [ "row-v9bn.u9wd-3xnn", "00000000-0000-0000-0BC3-EA16C7F0D1A9", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "White", "Both Sexes", "76.1", "909.2" ]
+, [ "row-ru2y_xxzc-79pv", "00000000-0000-0000-7C1E-10ECEBEAF18C", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "White", "Both Sexes", "76.3", "893.0" ]
+, [ "row-ske4_f6n3-h6yq", "00000000-0000-0000-D625-DCA52CCF0A7B", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "White", "Both Sexes", "76.5", "877.5" ]
+, [ "row-bn6b~xnax~ii3d", "00000000-0000-0000-B661-A844C6E8E355", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "White", "Both Sexes", "76.3", "896.8" ]
+, [ "row-hfy6.9vhn_ciah", "00000000-0000-0000-0A90-2ECD2AFCCB15", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "White", "Both Sexes", "76.5", "885.3" ]
+, [ "row-46gq-fqmm~f8kq", "00000000-0000-0000-DA16-DA3482A21565", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "White", "Both Sexes", "76.5", "882.0" ]
+, [ "row-kfsd-sjq9.diww", "00000000-0000-0000-2381-E69D41DF2132", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "White", "Both Sexes", "76.8", "868.7" ]
+, [ "row-ej6a.bret-kpq9", "00000000-0000-0000-8902-F6CCD98D922A", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "White", "Both Sexes", "77.1", "855.4" ]
+, [ "row-h8n9~5cyc-9t7m", "00000000-0000-0000-F96E-105225FC33A8", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "White", "Both Sexes", "77.3", "848.9" ]
+, [ "row-dssn.4f2c-sux5", "00000000-0000-0000-EA67-77DFC17A844D", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "White", "Both Sexes", "77.3", "854.6" ]
+, [ "row-mhk2_j85k.n8xt", "00000000-0000-0000-E4E4-8E67AEF3DB66", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "White", "Both Sexes", "77.3", "849.8" ]
+, [ "row-a4cr.p6me-5put", "00000000-0000-0000-47A3-61497D0A021E", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "White", "Both Sexes", "77.5", "840.7" ]
+, [ "row-fzxt-b9pj~a3vp", "00000000-0000-0000-C31D-32D8479F90A9", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "White", "Both Sexes", "77.5", "839.0" ]
+, [ "row-2m33.khin.emu3", "00000000-0000-0000-EF55-8B5414C4CE55", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "White", "Both Sexes", "77.7", "827.1" ]
+, [ "row-rsit_kswz~c8ij", "00000000-0000-0000-D625-8D51AB315ED8", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "White", "Both Sexes", "78.1", "798.5" ]
+, [ "row-qwr7~48sk.r9w4", "00000000-0000-0000-FBC9-41CED2E5B523", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "White", "Both Sexes", "78.0", "801.1" ]
+, [ "row-zz7s~x3ew-sp88", "00000000-0000-0000-EE9D-29109B382976", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "White", "Both Sexes", "78.3", "779.3" ]
+, [ "row-6247_s3k2_59ci", "00000000-0000-0000-D4F1-1BA773AEAF5E", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "White", "Both Sexes", "78.5", "764.3" ]
+, [ "row-6zpk.trqg-swac", "00000000-0000-0000-C091-EC7D574D0522", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "White", "Both Sexes", "78.5", "767.2" ]
+, [ "row-xp5r~6uc4-r3s7", "00000000-0000-0000-2F18-4A46FFEED5EE", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "White", "Both Sexes", "78.8", "742.8" ]
+, [ "row-vr6q_9rf3-3uy6", "00000000-0000-0000-273B-DA48B4E6900C", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "White", "Both Sexes", "78.9", "741.8" ]
+, [ "row-j32z.girf_4hkb", "00000000-0000-0000-108A-E73CC8C375EA", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "White", "Both Sexes", "79.0", "738.8" ]
+, [ "row-je3i~vd42-nir8", "00000000-0000-0000-D6B3-0A25E891B777", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "White", "Both Sexes", "79.1", "730.9" ]
+, [ "row-zek7.cf75-nej7", "00000000-0000-0000-7E8B-65F548E17D51", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "White", "Both Sexes", "79.1", "731.0" ]
+, [ "row-fe79~a84h_nnzq", "00000000-0000-0000-0FD6-E4653823D0D9", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "White", "Both Sexes", "79.1", "725.4" ]
+, [ "row-55hb~wtkf.fqkp", "00000000-0000-0000-3B4B-152CAA859A80", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "White", "Both Sexes", "78.9", "735.0" ]
+, [ "row-xygx-tjsy.2z8f", "00000000-0000-0000-9DA2-3F4243E6378E", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "White", "Both Sexes", "78.9", "729.9" ]
+, [ "row-6qvp-ifug_45cf", "00000000-0000-0000-67E6-96A26911D34A", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "White", "Both Sexes", "78.8", "734.5" ]
+, [ "row-zzbx-728t_8hn9", "00000000-0000-0000-4796-9F63EECDEF53", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "White", "Female", "48.7", "2394.0" ]
+, [ "row-92pa~q7j9.vkty", "00000000-0000-0000-B325-2E2405894889", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "White", "Female", "51.0", "2334.7" ]
+, [ "row-adib-hi7f~5wdt", "00000000-0000-0000-3C58-CCF73B9C8CE5", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "White", "Female", "53.8", "2146.4" ]
+, [ "row-jec7_vgmv~wjfg", "00000000-0000-0000-D87A-62CB9836E563", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "White", "Female", "52.5", "2231.5" ]
+, [ "row-xn3u-4nig~i7vb", "00000000-0000-0000-DEB4-08F32BF1AB83", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "White", "Female", "49.5", "2339.7" ]
+, [ "row-irek-tfw2_bhur", "00000000-0000-0000-3928-0921AA10448C", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "White", "Female", "50.6", "2269.0" ]
+, [ "row-nvzq_9gqq_f9q5", "00000000-0000-0000-3A41-FD4B111C3CBD", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "White", "Female", "51.4", "2220.8" ]
+, [ "row-hczi_gaju-wdpk", "00000000-0000-0000-1748-75248212870E", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "White", "Female", "50.4", "2303.8" ]
+, [ "row-ymby_zp6w_ac26", "00000000-0000-0000-2F87-4453AECE8960", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "White", "Female", "53.3", "2141.8" ]
+, [ "row-wehr.wgmi_wcj7", "00000000-0000-0000-98F4-0832876C174E", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "White", "Female", "54.2", "2092.1" ]
+, [ "row-cf2f.e2j6-sq8i", "00000000-0000-0000-B734-9C76D7346157", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "White", "Female", "52.0", "2154.0" ]
+, [ "row-7dp7.6633.vjq3", "00000000-0000-0000-BA35-FFFC642A3C18", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "White", "Female", "54.9", "2088.3" ]
+, [ "row-vnvm_jp39_zhi8", "00000000-0000-0000-CE51-A43BA6D1FF04", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "White", "Female", "56.2", "2045.1" ]
+, [ "row-emsy.2rhy_3m9v", "00000000-0000-0000-B8DA-258E3097A41E", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "White", "Female", "55.7", "2027.6" ]
+, [ "row-crqr_88x2.ck5b", "00000000-0000-0000-3088-574AF53D5739", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "White", "Female", "57.5", "1976.1" ]
+, [ "row-kg3z~68j4_av5g", "00000000-0000-0000-F4F8-8FD0449E89BD", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "White", "Female", "57.5", "2008.4" ]
+, [ "row-j9g9~qz4k.yj7y", "00000000-0000-0000-14CD-93EA35173FDF", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "White", "Female", "55.2", "2078.3" ]
+, [ "row-kf2p~44sc.h4xw", "00000000-0000-0000-693B-9095399D6990", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "White", "Female", "55.3", "2063.3" ]
+, [ "row-xst2-ccxr~wtwg", "00000000-0000-0000-A602-9FC073AFACE8", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "White", "Female", "43.2", "2274.9" ]
+, [ "row-pk2y~6h4m~fg8i", "00000000-0000-0000-3446-87BDB39D26CD", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "White", "Female", "57.4", "1915.1" ]
+, [ "row-ym8i.83zi-pivn", "00000000-0000-0000-5FA6-9DE145C8F97F", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "White", "Female", "55.6", "2025.9" ]
+, [ "row-hpuc-7jnj-nfuq", "00000000-0000-0000-6CBB-E89E640AE885", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "White", "Female", "62.9", "1842.3" ]
+, [ "row-qfnj.kzvj_heng", "00000000-0000-0000-17F1-AE2F61568E35", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "White", "Female", "61.9", "1917.7" ]
+, [ "row-8fsa.w34g.h5gz", "00000000-0000-0000-5C00-F19265C934B0", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "White", "Female", "59.6", "1995.9" ]
+, [ "row-apez~mt93~beyg", "00000000-0000-0000-E4AE-D37FA23631F8", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "White", "Female", "63.4", "1860.6" ]
+, [ "row-52ze_wkbj~289j", "00000000-0000-0000-B696-7B2C74DEF55D", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "White", "Female", "62.4", "1890.5" ]
+, [ "row-mqbs~wfmi-v7p8", "00000000-0000-0000-3E73-D64520532D5C", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "White", "Female", "59.6", "1963.8" ]
+, [ "row-vnrg-x2q5.yjde", "00000000-0000-0000-AAE0-2A27D8442621", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "White", "Female", "63.9", "1800.4" ]
+, [ "row-by6b_zd7n.rsne", "00000000-0000-0000-4611-89BB71BEDE60", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "White", "Female", "60.0", "1920.2" ]
+, [ "row-irs7~x9w4~qu4n", "00000000-0000-0000-46BF-106A226C0BE4", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "White", "Female", "60.3", "1869.9" ]
+, [ "row-p4e6-k9xn-7kep", "00000000-0000-0000-8CB4-275FD7B70C57", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "White", "Female", "63.5", "1726.6" ]
+, [ "row-2xvy~8yqu-hmtb", "00000000-0000-0000-5734-EE8F082C1363", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "White", "Female", "64.7", "1681.8" ]
+, [ "row-y85z~wuem~6vgs", "00000000-0000-0000-81C1-6F02CA0467C7", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "White", "Female", "64.5", "1707.3" ]
+, [ "row-dm6q.4nvh-pe7x", "00000000-0000-0000-CB7A-5D12A717A126", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "White", "Female", "66.3", "1649.4" ]
+, [ "row-6isy_zuqe_sfsf", "00000000-0000-0000-951B-3760EFE826FC", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "White", "Female", "64.6", "1668.1" ]
+, [ "row-yviv_s7qc~iyk4", "00000000-0000-0000-B91B-E19621E4F189", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "White", "Female", "65.0", "1642.0" ]
+, [ "row-3ar6.9qkb-cwn7", "00000000-0000-0000-4CC6-6EAB35D5F878", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "White", "Female", "61.9", "1727.4" ]
+, [ "row-ve3q.pwtf.dhxg", "00000000-0000-0000-0E8D-56F29E2E39F6", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "White", "Female", "63.8", "1644.3" ]
+, [ "row-m7kz.qj2r.rw8r", "00000000-0000-0000-0272-6CA3282E5926", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "White", "Female", "66.8", "1549.4" ]
+, [ "row-rniw~kugz_qmme", "00000000-0000-0000-0907-BB649E29E421", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "White", "Female", "66.6", "1556.8" ]
+, [ "row-g9z6.3pkm-mx8b", "00000000-0000-0000-FA6C-8D8F89517541", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "White", "Female", "66.6", "1550.4" ]
+, [ "row-zhf4_ahne_h9vn", "00000000-0000-0000-3E5E-C73D68D52E9C", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "White", "Female", "68.5", "1453.2" ]
+, [ "row-amst~kbwd~vji8", "00000000-0000-0000-37AC-1856C41DB02A", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "White", "Female", "69.4", "1403.6" ]
+, [ "row-wvg5-b24r~kffq", "00000000-0000-0000-FB23-053FA4402FA2", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "White", "Female", "65.7", "1469.1" ]
+, [ "row-f4vu-39ap_vkdy", "00000000-0000-0000-232D-79C7AE6D6C6A", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "White", "Female", "68.4", "1391.1" ]
+, [ "row-6m4f~brhq_tjh5", "00000000-0000-0000-0F9D-5FD9E2AEE0D2", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "White", "Female", "69.5", "1344.7" ]
+, [ "row-bihb-i4mq-t895", "00000000-0000-0000-4791-42882811F478", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "White", "Female", "70.3", "1315.2" ]
+, [ "row-cefr.hckr~wiv7", "00000000-0000-0000-445E-04A89F4EAA58", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "White", "Female", "70.5", "1301.6" ]
+, [ "row-k9cr-68sv-dqzd", "00000000-0000-0000-04BB-D5000A1E2775", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "White", "Female", "71.0", "1263.7" ]
+, [ "row-zd8h~94sm.pfme", "00000000-0000-0000-58CC-D92D6548E236", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "White", "Female", "71.9", "1217.3" ]
+, [ "row-etb3-izpk.745n", "00000000-0000-0000-AE1C-E370259330B6", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "White", "Female", "72.2", "1198.0" ]
+, [ "row-zj9e_3i7z.3rzm", "00000000-0000-0000-FF91-7F959995596F", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "White", "Female", "72.4", "1179.1" ]
+, [ "row-3xec-5hb6~6rg7", "00000000-0000-0000-3A04-50867892BD3C", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "White", "Female", "72.6", "1153.3" ]
+, [ "row-s4pf.gxb2-ts2z", "00000000-0000-0000-E3A8-E4177C818C60", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "White", "Female", "73.0", "1141.0" ]
+, [ "row-jdt8_p6gg~s52x", "00000000-0000-0000-8547-376B98C89F15", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "White", "Female", "73.7", "1081.8" ]
+, [ "row-k53u-svhu~r6ge", "00000000-0000-0000-C78C-F959DA89F86C", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "White", "Female", "73.7", "1095.4" ]
+, [ "row-crd6~ehdv.v597", "00000000-0000-0000-6882-39E36F128851", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "White", "Female", "73.9", "1089.9" ]
+, [ "row-imz5.b59g_3cmb", "00000000-0000-0000-8817-3D2E4D96E4B2", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "White", "Female", "73.7", "1104.1" ]
+, [ "row-jhnt.6y9y-kj4v", "00000000-0000-0000-09EE-2E42BD7E4B27", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "White", "Female", "73.9", "1090.8" ]
+, [ "row-izut-fstd_pmvu", "00000000-0000-0000-9595-E7EE1361C4AB", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "White", "Female", "74.2", "1065.3" ]
+, [ "row-pekn.92uz_a392", "00000000-0000-0000-D0D6-D06D58075E79", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "White", "Female", "74.1", "1074.4" ]
+, [ "row-id9g.yms6~rzh2", "00000000-0000-0000-7DEC-322010FE454B", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "White", "Female", "74.6", "1038.8" ]
+, [ "row-kudj_74ia.n6zc", "00000000-0000-0000-883B-892A67D89B93", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "White", "Female", "74.5", "1052.6" ]
+, [ "row-4hu4.srre_fjjv", "00000000-0000-0000-BCB6-0031CC48F967", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "White", "Female", "74.4", "1062.6" ]
+, [ "row-kp3k_93qz.sd2u", "00000000-0000-0000-A662-B6E3F437D782", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "White", "Female", "74.7", "1030.9" ]
+, [ "row-igc2.7k2f_gwxc", "00000000-0000-0000-9B02-C9016C0F3E56", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "White", "Female", "74.8", "1026.7" ]
+, [ "row-ypf3-axvc_tdic", "00000000-0000-0000-D779-99FFA65CFA82", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "White", "Female", "74.8", "1024.7" ]
+, [ "row-75mc.8z8e.98wb", "00000000-0000-0000-3AC2-175C6498E2E2", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "White", "Female", "75.2", "992.9" ]
+, [ "row-udxu-f4p9.e8vx", "00000000-0000-0000-94A9-EBF7D7A82247", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "White", "Female", "75.0", "1012.2" ]
+, [ "row-bqtw-772s-z6ug", "00000000-0000-0000-FCF6-7FDCB37D618D", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "White", "Female", "75.3", "984.2" ]
+, [ "row-t62h.dqvd-kjtd", "00000000-0000-0000-75B1-E00B812F0B1E", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "White", "Female", "75.6", "944.0" ]
+, [ "row-5dia-xufc~nhsz", "00000000-0000-0000-F8FD-74575604C914", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "White", "Female", "75.8", "933.4" ]
+, [ "row-cuip.mq9g_hxbb", "00000000-0000-0000-3FC1-FEBC8E080389", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "White", "Female", "75.9", "932.9" ]
+, [ "row-ey8e~6jsn.tue9", "00000000-0000-0000-70DF-85688070FF6C", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "White", "Female", "76.1", "921.4" ]
+, [ "row-ynfv.ctnp~bk2i", "00000000-0000-0000-72F8-A160FCC19282", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "White", "Female", "76.7", "884.2" ]
+, [ "row-dgsk.bcje_wegp", "00000000-0000-0000-455A-B49A05393909", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "White", "Female", "77.3", "834.1" ]
+, [ "row-jncf.t7b6-z4uv", "00000000-0000-0000-C714-921BF63EEF09", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "White", "Female", "77.5", "828.9" ]
+, [ "row-ugc5.gjcv~5t67", "00000000-0000-0000-AA3F-66BD0D66E6E0", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "White", "Female", "77.9", "799.7" ]
+, [ "row-6gz9~pjzj.zpwg", "00000000-0000-0000-97FF-60EBAFAF6A85", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "White", "Female", "78.0", "796.6" ]
+, [ "row-feqx~u8r7_dzct", "00000000-0000-0000-0C9E-5E78488F0661", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "White", "Female", "78.4", "770.1" ]
+, [ "row-75w5.m89u-xj2p", "00000000-0000-0000-9F13-5D8E7DB98507", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "White", "Female", "78.1", "796.0" ]
+, [ "row-wf28~bmxz~mckj", "00000000-0000-0000-7007-44CDEDF9B5BA", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "White", "Female", "78.4", "773.6" ]
+, [ "row-55h5~eck8.cqfg", "00000000-0000-0000-66A9-009F05D2AF33", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "White", "Female", "78.7", "758.6" ]
+, [ "row-xim8_36in.t7cj", "00000000-0000-0000-832D-BAE2515B1A0F", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "White", "Female", "78.7", "764.1" ]
+, [ "row-gcgv.a38r~n92a", "00000000-0000-0000-6C0A-AAF7088A6109", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "White", "Female", "78.7", "760.5" ]
+, [ "row-mcjk_gjxx-ue98", "00000000-0000-0000-CECC-180755986547", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "White", "Female", "78.7", "764.2" ]
+, [ "row-r6xa.nsaq-7sdb", "00000000-0000-0000-B2E0-49C11C72F9F6", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "White", "Female", "78.8", "758.0" ]
+, [ "row-kvwh_yqu8_bpv5", "00000000-0000-0000-164A-C765A67380F5", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "White", "Female", "78.9", "753.2" ]
+, [ "row-ebyx.zjn7.ryai", "00000000-0000-0000-38EE-C3EC9BCC7459", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "White", "Female", "78.9", "758.7" ]
+, [ "row-s38c_shsk.rkr4", "00000000-0000-0000-E826-35279E6CFBCB", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "White", "Female", "79.2", "738.3" ]
+, [ "row-hnmw_i8wy~zr8y", "00000000-0000-0000-9217-EB1D9B797EF9", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "White", "Female", "79.4", "728.3" ]
+, [ "row-m2hq-peqi-c6zm", "00000000-0000-0000-E4B8-0043403B3BAF", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "White", "Female", "79.6", "715.9" ]
+, [ "row-jwrv_qff4~qmcv", "00000000-0000-0000-2C24-42379BA1B8B1", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "White", "Female", "79.8", "703.9" ]
+, [ "row-yccn.cfvj.77ff", "00000000-0000-0000-A25A-CE72E50C07B9", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "White", "Female", "79.5", "723.9" ]
+, [ "row-yjnk~tkwn.izgi", "00000000-0000-0000-52BD-43811E96B86C", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "White", "Female", "79.6", "717.3" ]
+, [ "row-zsas.8drg~7g5x", "00000000-0000-0000-4366-2D31F643B628", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "White", "Female", "79.6", "718.4" ]
+, [ "row-mjpp.neh3~nbgu", "00000000-0000-0000-02C3-554F3690BF6B", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "White", "Female", "79.7", "713.3" ]
+, [ "row-pq87~2zut-az2g", "00000000-0000-0000-AD0B-8ED48EF8E78F", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "White", "Female", "79.9", "707.5" ]
+, [ "row-rh7w_up44.h6gm", "00000000-0000-0000-FD8C-3873388F8ACC", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "White", "Female", "80.0", "706.9" ]
+, [ "row-d2ae.fq87_ine8", "00000000-0000-0000-F940-0788111FFD0E", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "White", "Female", "79.9", "716.6" ]
+, [ "row-9a7x_chxn.kesi", "00000000-0000-0000-5935-084520065814", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "White", "Female", "79.9", "715.3" ]
+, [ "row-dvrz_kimj.yxfw", "00000000-0000-0000-1791-8FFFF2E41DE4", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "White", "Female", "80.0", "710.4" ]
+, [ "row-pzvu.xrmf_bpwr", "00000000-0000-0000-520E-29326F2FA8B7", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "White", "Female", "80.1", "709.3" ]
+, [ "row-8md3_k3fx-6b8t", "00000000-0000-0000-621D-9F82E36AC377", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "White", "Female", "80.2", "701.6" ]
+, [ "row-i8ax.kyin~u445", "00000000-0000-0000-040D-DC3CA318A139", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "White", "Female", "80.5", "677.7" ]
+, [ "row-8huu-xcwd-2vka", "00000000-0000-0000-FDB0-FD8DE50D1BF7", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "White", "Female", "80.5", "680.9" ]
+, [ "row-2r2j~5vwq.f63u", "00000000-0000-0000-6C68-19DB1973408E", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "White", "Female", "80.7", "662.3" ]
+, [ "row-nthw-jgyi-k9f6", "00000000-0000-0000-4C7B-E4A1CD41E279", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "White", "Female", "80.9", "649.4" ]
+, [ "row-v67x.8eqr-mp4c", "00000000-0000-0000-4FF7-A7520128CEDE", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "White", "Female", "80.9", "653.7" ]
+, [ "row-zznw_r25a.uqc6", "00000000-0000-0000-B9F2-4FCA08FB597A", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "White", "Female", "81.2", "631.3" ]
+, [ "row-vduu.neih.nk58", "00000000-0000-0000-2F35-3A068383433E", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "White", "Female", "81.3", "630.8" ]
+, [ "row-gkbu_v5wm~km2k", "00000000-0000-0000-B2C4-13B241C4AF13", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "White", "Female", "81.3", "630.3" ]
+, [ "row-k9s6.rshr.k29z", "00000000-0000-0000-CA34-202A47AAA833", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "White", "Female", "81.4", "623.8" ]
+, [ "row-wrsy~8i99~8bvc", "00000000-0000-0000-2FE9-528ECA4D7BBD", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "White", "Female", "81.4", "623.6" ]
+, [ "row-c3ad_wdrp_8h66", "00000000-0000-0000-B50E-3715EF9EFEE8", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "White", "Female", "81.4", "617.6" ]
+, [ "row-67yn.7eh9.t842", "00000000-0000-0000-F347-89A0495382C6", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "White", "Female", "81.3", "627.0" ]
+, [ "row-qg9e-4cis~2fqv", "00000000-0000-0000-E996-FA42F8DCC3CE", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "White", "Female", "81.3", "619.4" ]
+, [ "row-cp4a-tqyz.zd27", "00000000-0000-0000-5A4E-010C012611CB", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "White", "Female", "81.2", "623.5" ]
+, [ "row-z97x~45bd.2eju", "00000000-0000-0000-6964-D96EA489294C", 0, 1570577236, null, 1570577236, null, "{ }", "1900", "White", "Male", "46.6", "2613.2" ]
+, [ "row-zrg8-9zvr-z5yt", "00000000-0000-0000-45AA-0600B8618E7C", 0, 1570577236, null, 1570577236, null, "{ }", "1901", "White", "Male", "48.0", "2582.3" ]
+, [ "row-8ht9_fxyf-jjdc", "00000000-0000-0000-DF07-87035A9BF00D", 0, 1570577236, null, 1570577236, null, "{ }", "1902", "White", "Male", "50.2", "2430.1" ]
+, [ "row-jy3u_zivf.5tec", "00000000-0000-0000-BDCE-D855947C40E8", 0, 1570577236, null, 1570577236, null, "{ }", "1903", "White", "Male", "49.5", "2494.2" ]
+, [ "row-547a.pm26.sgan", "00000000-0000-0000-2C30-6A0454F96767", 0, 1570577236, null, 1570577236, null, "{ }", "1904", "White", "Male", "46.6", "2630.5" ]
+, [ "row-hq8s-jyt9_twk6", "00000000-0000-0000-21FA-9E434B52E926", 0, 1570577236, null, 1570577236, null, "{ }", "1905", "White", "Male", "47.6", "2544.7" ]
+, [ "row-uzrb_gqfq-32ea", "00000000-0000-0000-97C0-35015C06037A", 0, 1570577236, null, 1570577236, null, "{ }", "1906", "White", "Male", "47.3", "2529.3" ]
+, [ "row-tp7q-bq32-mts8", "00000000-0000-0000-D818-3F216A6EE252", 0, 1570577236, null, 1570577236, null, "{ }", "1907", "White", "Male", "46.0", "2637.0" ]
+, [ "row-7mhi.8pmd~4jis", "00000000-0000-0000-FFF2-A8D7352F13EF", 0, 1570577236, null, 1570577236, null, "{ }", "1908", "White", "Male", "49.9", "2412.3" ]
+, [ "row-vqm7.mbgz~ppmr", "00000000-0000-0000-471A-B8712800F574", 0, 1570577236, null, 1570577236, null, "{ }", "1909", "White", "Male", "50.9", "2363.8" ]
+, [ "row-nfa8.m5ci-rhhr", "00000000-0000-0000-C348-243AD5182B4C", 0, 1570577236, null, 1570577236, null, "{ }", "1910", "White", "Male", "48.6", "2441.9" ]
+, [ "row-w9c6~yxe5-y4nf", "00000000-0000-0000-27FF-8CC8BBF0A57B", 0, 1570577236, null, 1570577236, null, "{ }", "1911", "White", "Male", "51.3", "2350.3" ]
+, [ "row-6pp4.bm8a~vxj5", "00000000-0000-0000-E41C-2AB79CBBF3A8", 0, 1570577236, null, 1570577236, null, "{ }", "1912", "White", "Male", "51.9", "2327.5" ]
+, [ "row-q5w5.ndu8_9s5k", "00000000-0000-0000-3C55-8BF82EB9C00A", 0, 1570577236, null, 1570577236, null, "{ }", "1913", "White", "Male", "50.8", "2322.1" ]
+, [ "row-trd7-755k~b693", "00000000-0000-0000-23E1-14D13AF22BCD", 0, 1570577236, null, 1570577236, null, "{ }", "1914", "White", "Male", "52.7", "2254.1" ]
+, [ "row-terb~q3sj.e27q", "00000000-0000-0000-59AD-ACBC0BB3138E", 0, 1570577236, null, 1570577236, null, "{ }", "1915", "White", "Male", "53.1", "2267.8" ]
+, [ "row-3f7u_kte6-9ypi", "00000000-0000-0000-0686-B35D0E28C130", 0, 1570577236, null, 1570577236, null, "{ }", "1916", "White", "Male", "50.2", "2365.6" ]
+, [ "row-ii65~a6fe_uyqr", "00000000-0000-0000-40B2-DA3A4D342ED5", 0, 1570577236, null, 1570577236, null, "{ }", "1917", "White", "Male", "49.3", "2375.9" ]
+, [ "row-4vyu-dyrq.3dwu", "00000000-0000-0000-D6AE-4DD7AF9D48A6", 0, 1570577236, null, 1570577236, null, "{ }", "1918", "White", "Male", "37.1", "2680.7" ]
+, [ "row-pdyr~6dr5~mhia", "00000000-0000-0000-E25A-B3F115B413B0", 0, 1570577236, null, 1570577236, null, "{ }", "1919", "White", "Male", "54.5", "2096.0" ]
+, [ "row-zd7h.hfkt-hqjs", "00000000-0000-0000-2625-C33B769B6B56", 0, 1570577236, null, 1570577236, null, "{ }", "1920", "White", "Male", "54.4", "2166.6" ]
+, [ "row-dbsf.turp-ifdb", "00000000-0000-0000-4AC4-1844E759BDAA", 0, 1570577236, null, 1570577236, null, "{ }", "1921", "White", "Male", "60.8", "1986.2" ]
+, [ "row-fh27~g94h.jiuu", "00000000-0000-0000-23EE-E9775DF95B9E", 0, 1570577236, null, 1570577236, null, "{ }", "1922", "White", "Male", "59.1", "2088.2" ]
+, [ "row-9gj5_jru8-kvs6", "00000000-0000-0000-EB7E-7A4596786EAD", 0, 1570577236, null, 1570577236, null, "{ }", "1923", "White", "Male", "57.1", "2174.2" ]
+, [ "row-wwgy.6hbe_qeda", "00000000-0000-0000-AD87-03679C5E7412", 0, 1570577236, null, 1570577236, null, "{ }", "1924", "White", "Male", "59.8", "2073.7" ]
+, [ "row-jd8k-sjph_z3k5", "00000000-0000-0000-DB41-B6DAE5337A28", 0, 1570577236, null, 1570577236, null, "{ }", "1925", "White", "Male", "59.3", "2104.4" ]
+, [ "row-wuav.psg2~rmd2", "00000000-0000-0000-0560-2B906886200A", 0, 1570577236, null, 1570577236, null, "{ }", "1926", "White", "Male", "57.0", "2190.6" ]
+, [ "row-ahng~tp2c_dcqs", "00000000-0000-0000-0398-18E8B713C5E3", 0, 1570577236, null, 1570577236, null, "{ }", "1927", "White", "Male", "60.5", "2048.6" ]
+, [ "row-bjw3_icy5~4y29", "00000000-0000-0000-744F-39DD03DC4D96", 0, 1570577236, null, 1570577236, null, "{ }", "1928", "White", "Male", "57.0", "2182.8" ]
+, [ "row-iyub~csjr_4axv", "00000000-0000-0000-1BC9-6FC11F5B6B05", 0, 1570577236, null, 1570577236, null, "{ }", "1929", "White", "Male", "57.2", "2141.2" ]
+, [ "row-crhx.sz7r-2dwi", "00000000-0000-0000-F1BA-1D13CD707FDC", 0, 1570577236, null, 1570577236, null, "{ }", "1930", "White", "Male", "59.7", "2013.8" ]
+, [ "row-ne38_miwh_rpw2", "00000000-0000-0000-D34C-F42581ABC4CF", 0, 1570577236, null, 1570577236, null, "{ }", "1931", "White", "Male", "60.8", "1983.6" ]
+, [ "row-nitq_5j44.3gva", "00000000-0000-0000-1759-1ADF4FB0C668", 0, 1570577236, null, 1570577236, null, "{ }", "1932", "White", "Male", "62.0", "1982.9" ]
+, [ "row-56uq~qgax_va28", "00000000-0000-0000-F9EE-E5F92CF34420", 0, 1570577236, null, 1570577236, null, "{ }", "1933", "White", "Male", "62.7", "1952.2" ]
+, [ "row-hcmm~2dkr-av99", "00000000-0000-0000-099B-0CF2869AA2FB", 0, 1570577236, null, 1570577236, null, "{ }", "1934", "White", "Male", "60.5", "2000.7" ]
+, [ "row-hxaa~pt2z.ppx7", "00000000-0000-0000-1F61-7DB5E0E31981", 0, 1570577236, null, 1570577236, null, "{ }", "1935", "White", "Male", "61.0", "1979.3" ]
+, [ "row-5eyc-wet9.z2i5", "00000000-0000-0000-DB88-D309A71EF0B0", 0, 1570577236, null, 1570577236, null, "{ }", "1936", "White", "Male", "58.0", "2087.0" ]
+, [ "row-mr3w_3pqa.feie", "00000000-0000-0000-48C2-D9766A23367F", 0, 1570577236, null, 1570577236, null, "{ }", "1937", "White", "Male", "59.3", "2016.5" ]
+, [ "row-dxi7-vh85-quw8", "00000000-0000-0000-CE6A-19F97F88CC9D", 0, 1570577236, null, 1570577236, null, "{ }", "1938", "White", "Male", "63.2", "1882.7" ]
+, [ "row-fxmy.qhm8-x56h", "00000000-0000-0000-071A-337A571078CB", 0, 1570577236, null, 1570577236, null, "{ }", "1939", "White", "Male", "63.3", "1894.4" ]
+, [ "row-hjf5~ab5f~fc48", "00000000-0000-0000-7BD5-6C9CB9A89F0A", 0, 1570577236, null, 1570577236, null, "{ }", "1940", "White", "Male", "62.1", "1925.2" ]
+, [ "row-i8zn_p9ab~qv3j", "00000000-0000-0000-325B-8714208E3DEC", 0, 1570577236, null, 1570577236, null, "{ }", "1941", "White", "Male", "64.4", "1844.1" ]
+, [ "row-j94d~epeq.is65", "00000000-0000-0000-1D0F-E2835E1F117D", 0, 1570577236, null, 1570577236, null, "{ }", "1942", "White", "Male", "65.9", "1793.7" ]
+, [ "row-hfby_kkpt.yfju", "00000000-0000-0000-CD78-9C89A3DCFC0F", 0, 1570577236, null, 1570577236, null, "{ }", "1943", "White", "Male", "63.2", "1872.9" ]
+, [ "row-bkd8-qhge.tgqm", "00000000-0000-0000-3A7C-7E4C5CBB150B", 0, 1570577236, null, 1570577236, null, "{ }", "1944", "White", "Male", "64.5", "1788.0" ]
+, [ "row-wjtp_4wt7~3fcu", "00000000-0000-0000-2775-9199EC4F81CD", 0, 1570577236, null, 1570577236, null, "{ }", "1945", "White", "Male", "64.4", "1761.6" ]
+, [ "row-y4hc-hxiq_hwic", "00000000-0000-0000-7AFB-577463B2D490", 0, 1570577236, null, 1570577236, null, "{ }", "1946", "White", "Male", "65.1", "1706.1" ]
+, [ "row-8bsa_nbgn_q4hu", "00000000-0000-0000-A67E-A0DAC923F202", 0, 1570577236, null, 1570577236, null, "{ }", "1947", "White", "Male", "65.2", "1718.6" ]
+, [ "row-kdx6_w7yp-23a3", "00000000-0000-0000-C570-B50330D17EEA", 0, 1570577236, null, 1570577236, null, "{ }", "1948", "White", "Male", "65.5", "1691.2" ]
+, [ "row-eqt9_titb.5zxr", "00000000-0000-0000-1ED8-4AE6C417E389", 0, 1570577236, null, 1570577236, null, "{ }", "1949", "White", "Male", "66.2", "1647.8" ]
+, [ "row-vrs3_dsjg.me7f", "00000000-0000-0000-693E-47DFCE7C1A3E", 0, 1570577236, null, 1570577236, null, "{ }", "1950", "White", "Male", "66.5", "1642.5" ]
+, [ "row-wbxt~d3i5~43pr", "00000000-0000-0000-C200-76F44CC274BA", 0, 1570577236, null, 1570577236, null, "{ }", "1951", "White", "Male", "66.5", "1621.7" ]
+, [ "row-fpr6_e3a8-bh9a", "00000000-0000-0000-3ADF-8964A031BECC", 0, 1570577236, null, 1570577236, null, "{ }", "1952", "White", "Male", "66.6", "1588.5" ]
+, [ "row-ebub_52cj-ezhw", "00000000-0000-0000-2848-E03CBE657F24", 0, 1570577236, null, 1570577236, null, "{ }", "1953", "White", "Male", "66.8", "1589.0" ]
+, [ "row-xgq8_c2gg.5hhh", "00000000-0000-0000-9156-DA1433587792", 0, 1570577236, null, 1570577236, null, "{ }", "1954", "White", "Male", "67.5", "1516.3" ]
+, [ "row-fgm9-937f_e6fa", "00000000-0000-0000-D01D-56906E0A5683", 0, 1570577236, null, 1570577236, null, "{ }", "1955", "White", "Male", "67.4", "1544.7" ]
+, [ "row-4xjf~r9xi_ms5c", "00000000-0000-0000-78C8-4DFB2CC634C5", 0, 1570577236, null, 1570577236, null, "{ }", "1956", "White", "Male", "67.5", "1554.4" ]
+, [ "row-rebs_k8wi-na35", "00000000-0000-0000-604A-679EC463674C", 0, 1570577236, null, 1570577236, null, "{ }", "1957", "White", "Male", "67.2", "1581.7" ]
+, [ "row-xsba~wir6-xysk", "00000000-0000-0000-14B3-87521D4C8660", 0, 1570577236, null, 1570577236, null, "{ }", "1958", "White", "Male", "67.4", "1573.1" ]
+, [ "row-dc2a-6e27-ppby", "00000000-0000-0000-5128-B4389782B856", 0, 1570577236, null, 1570577236, null, "{ }", "1959", "White", "Male", "67.5", "1552.1" ]
+, [ "row-jne7-npgq.5cbg", "00000000-0000-0000-E939-4B623FEA3A05", 0, 1570577236, null, 1570577236, null, "{ }", "1960", "White", "Male", "67.4", "1586.0" ]
+, [ "row-e8xe~576u-cdmd", "00000000-0000-0000-0626-4E03B2404D34", 0, 1570577236, null, 1570577236, null, "{ }", "1961", "White", "Male", "67.8", "1547.3" ]
+, [ "row-3v8w_nfrn-crd2", "00000000-0000-0000-3E62-CC53091F24D0", 0, 1570577236, null, 1570577236, null, "{ }", "1962", "White", "Male", "67.7", "1579.1" ]
+, [ "row-xmas~6vju_8wxj", "00000000-0000-0000-FA91-D386108B5498", 0, 1570577236, null, 1570577236, null, "{ }", "1963", "White", "Male", "67.4", "1614.7" ]
+, [ "row-ej8w.hinv_bp57", "00000000-0000-0000-AE2B-31FAB1828945", 0, 1570577236, null, 1570577236, null, "{ }", "1964", "White", "Male", "67.7", "1572.0" ]
+, [ "row-zhjh.n2cg~5bhn", "00000000-0000-0000-C9C1-D1D03B7F61C2", 0, 1570577236, null, 1570577236, null, "{ }", "1965", "White", "Male", "67.6", "1589.9" ]
+, [ "row-ugm3~9wm7-qtvv", "00000000-0000-0000-6815-6D5829B933C6", 0, 1570577236, null, 1570577236, null, "{ }", "1966", "White", "Male", "67.5", "1595.7" ]
+, [ "row-qdfy-vdu2-tdu7", "00000000-0000-0000-898A-5A8D510A778B", 0, 1570577236, null, 1570577236, null, "{ }", "1967", "White", "Male", "67.8", "1566.9" ]
+, [ "row-cn6y.cukp-uevq", "00000000-0000-0000-EB55-4A94D21B73B3", 0, 1570577236, null, 1570577236, null, "{ }", "1968", "White", "Male", "67.5", "1602.7" ]
+, [ "row-chjf~cuhi-437d", "00000000-0000-0000-B101-14B6762C30F4", 0, 1570577236, null, 1570577236, null, "{ }", "1969", "White", "Male", "67.7", "1570.4" ]
+, [ "row-ph7s_5p2k~axkf", "00000000-0000-0000-38D0-9985710E4473", 0, 1570577236, null, 1570577236, null, "{ }", "1970", "White", "Male", "68.0", "1513.7" ]
+, [ "row-fxhi-nrzz_raj2", "00000000-0000-0000-9B6E-1FECA20C8F8B", 0, 1570577236, null, 1570577236, null, "{ }", "1971", "White", "Male", "68.3", "1514.4" ]
+, [ "row-fgvv.jaxy-5yjq", "00000000-0000-0000-8341-FB20B6132C4E", 0, 1570577236, null, 1570577236, null, "{ }", "1972", "White", "Male", "68.3", "1520.2" ]
+, [ "row-bu7j.qvyn.4eqv", "00000000-0000-0000-35F9-521D964AEA31", 0, 1570577236, null, 1570577236, null, "{ }", "1973", "White", "Male", "68.5", "1507.2" ]
+, [ "row-kh8d.2wz8~cwpn", "00000000-0000-0000-A50B-916FAF402D53", 0, 1570577236, null, 1570577236, null, "{ }", "1974", "White", "Male", "69.0", "1450.8" ]
+, [ "row-r5zy-9jue~q5pe", "00000000-0000-0000-0C2B-7CD7ABC014DA", 0, 1570577236, null, 1570577236, null, "{ }", "1975", "White", "Male", "69.5", "1391.1" ]
+, [ "row-74v7-a252.5geq", "00000000-0000-0000-AE04-F4F7BD64AD7E", 0, 1570577236, null, 1570577236, null, "{ }", "1976", "White", "Male", "69.9", "1379.5" ]
+, [ "row-bkgt.pm6m~y6cy", "00000000-0000-0000-1DE5-FAECE0A5A0F8", 0, 1570577236, null, 1570577236, null, "{ }", "1977", "White", "Male", "70.2", "1343.5" ]
+, [ "row-bgah-8tpk~uwnn", "00000000-0000-0000-FAC7-5BBAA55A2FA1", 0, 1570577236, null, 1570577236, null, "{ }", "1978", "White", "Male", "70.4", "1332.5" ]
+, [ "row-jc45~qsaz_stra", "00000000-0000-0000-2A38-7D06DC392FBB", 0, 1570577236, null, 1570577236, null, "{ }", "1979", "White", "Male", "70.8", "1289.5" ]
+, [ "row-p63r~d8ba-z3d3", "00000000-0000-0000-EDD1-D8EEDAF7F3EB", 0, 1570577236, null, 1570577236, null, "{ }", "1980", "White", "Male", "70.7", "1317.4" ]
+, [ "row-i7sg_bdir_b76b", "00000000-0000-0000-D9EF-1256FAE2D5DF", 0, 1570577236, null, 1570577236, null, "{ }", "1981", "White", "Male", "71.1", "1282.4" ]
+, [ "row-nhgz-6w5q_p784", "00000000-0000-0000-5C8C-188EA0158B68", 0, 1570577236, null, 1570577236, null, "{ }", "1982", "White", "Male", "71.5", "1255.9" ]
+, [ "row-qph9_4e8y-zzcp", "00000000-0000-0000-B9E8-938428AEE482", 0, 1570577236, null, 1570577236, null, "{ }", "1983", "White", "Male", "71.6", "1259.8" ]
+, [ "row-74a3-2bgc-abvf", "00000000-0000-0000-7EA6-C9F8C1C9B9B5", 0, 1570577236, null, 1570577236, null, "{ }", "1984", "White", "Male", "71.8", "1245.5" ]
+, [ "row-gvsh~urc8.sazj", "00000000-0000-0000-CB68-C0AC6DF3B370", 0, 1570577236, null, 1570577236, null, "{ }", "1985", "White", "Male", "71.8", "1249.5" ]
+, [ "row-k2th~bhdg-2tsr", "00000000-0000-0000-0F78-64CE5E4FCAB5", 0, 1570577236, null, 1570577236, null, "{ }", "1986", "White", "Male", "71.9", "1230.5" ]
+, [ "row-8whi.56by-v8fz", "00000000-0000-0000-6A17-9394309807BE", 0, 1570577236, null, 1570577236, null, "{ }", "1987", "White", "Male", "72.1", "1213.1" ]
+, [ "row-zszf_enen-27gy", "00000000-0000-0000-100F-0728B3706155", 0, 1570577236, null, 1570577236, null, "{ }", "1988", "White", "Male", "72.2", "1215.5" ]
+, [ "row-qjqx_6hde~5zcz", "00000000-0000-0000-4822-65AB62BCC948", 0, 1570577236, null, 1570577236, null, "{ }", "1989", "White", "Male", "72.5", "1176.0" ]
+, [ "row-vzbi-ih4p.jz6m", "00000000-0000-0000-37A3-C5F293F06D65", 0, 1570577236, null, 1570577236, null, "{ }", "1990", "White", "Male", "72.7", "1165.3" ]
+, [ "row-csqk_xhuv_kbf6", "00000000-0000-0000-2F15-3191F42D134B", 0, 1570577236, null, 1570577236, null, "{ }", "1991", "White", "Male", "72.9", "1142.8" ]
+, [ "row-a6y9_j938_aj8c", "00000000-0000-0000-7649-7F2135CAB146", 0, 1570577236, null, 1570577236, null, "{ }", "1992", "White", "Male", "73.2", "1122.2" ]
+, [ "row-wcdq_kudu_9zzy", "00000000-0000-0000-92E7-A79005E202D1", 0, 1570577236, null, 1570577236, null, "{ }", "1993", "White", "Male", "73.1", "1138.7" ]
+, [ "row-9yvb-imp4~ge45", "00000000-0000-0000-6544-1E2073A685DD", 0, 1570577236, null, 1570577236, null, "{ }", "1994", "White", "Male", "73.3", "1118.4" ]
+, [ "row-9kdb-aacr.4vuz", "00000000-0000-0000-23F3-EA3ECF684486", 0, 1570577236, null, 1570577236, null, "{ }", "1995", "White", "Male", "73.4", "1107.2" ]
+, [ "row-c8jy~umvt.gugg", "00000000-0000-0000-4A37-8AC425634001", 0, 1570577236, null, 1570577236, null, "{ }", "1996", "White", "Male", "73.9", "1082.5" ]
+, [ "row-pqnt.tbgv_ypgn", "00000000-0000-0000-2FAA-FA447F84E5F2", 0, 1570577236, null, 1570577236, null, "{ }", "1997", "White", "Male", "74.3", "1058.7" ]
+, [ "row-dyqn~5zza_ypc8", "00000000-0000-0000-C6F8-372A2110250F", 0, 1570577236, null, 1570577236, null, "{ }", "1998", "White", "Male", "74.5", "1041.6" ]
+, [ "row-ie6d-spzn.x7e7", "00000000-0000-0000-5EF5-EAD0026AAD15", 0, 1570577236, null, 1570577236, null, "{ }", "1999", "White", "Male", "74.6", "1040.1" ]
+, [ "row-ekjm-x99a.nah3", "00000000-0000-0000-47D2-7DFAADDF3781", 0, 1570577236, null, 1570577236, null, "{ }", "2000", "White", "Male", "74.7", "1029.4" ]
+, [ "row-kjb5~55ji~iuvy", "00000000-0000-0000-6B70-E6BE02286B72", 0, 1570577236, null, 1570577236, null, "{ }", "2001", "White", "Male", "74.9", "1012.1" ]
+, [ "row-94qx-jmet.98fz", "00000000-0000-0000-C0E3-C07E288CD34B", 0, 1570577236, null, 1570577236, null, "{ }", "2002", "White", "Male", "74.9", "1009.0" ]
+, [ "row-shir.dg98-93ai", "00000000-0000-0000-6EC9-212F20544265", 0, 1570577236, null, 1570577236, null, "{ }", "2003", "White", "Male", "75.1", "988.8" ]
+, [ "row-uu2p-mjyt_k869", "00000000-0000-0000-4268-B602E47B539A", 0, 1570577236, null, 1570577236, null, "{ }", "2004", "White", "Male", "75.5", "953.2" ]
+, [ "row-x92t.rkjj~nd2x", "00000000-0000-0000-00F0-C377E6638345", 0, 1570577236, null, 1570577236, null, "{ }", "2005", "White", "Male", "75.5", "952.9" ]
+, [ "row-wupi.mbub.gbk9", "00000000-0000-0000-7A9B-C1830C452375", 0, 1570577236, null, 1570577236, null, "{ }", "2006", "White", "Male", "75.8", "925.8" ]
+, [ "row-yhst.g52h~wx6e", "00000000-0000-0000-D0C8-48EDE0876678", 0, 1570577236, null, 1570577236, null, "{ }", "2007", "White", "Male", "76.0", "907.1" ]
+, [ "row-qryw-6g7h~iia9", "00000000-0000-0000-EF9D-C9DF18300FCB", 0, 1570577236, null, 1570577236, null, "{ }", "2008", "White", "Male", "76.1", "907.1" ]
+, [ "row-vpkv-acgx~6j9x", "00000000-0000-0000-66D7-7CD1AB34809E", 0, 1570577236, null, 1570577236, null, "{ }", "2009", "White", "Male", "76.4", "880.5" ]
+, [ "row-a9st~kqkv_rih9", "00000000-0000-0000-0181-871F0AABD06C", 0, 1570577236, null, 1570577236, null, "{ }", "2010", "White", "Male", "76.5", "878.5" ]
+, [ "row-46be-b659-nzht", "00000000-0000-0000-CA34-C8F306D59975", 0, 1570577236, null, 1570577236, null, "{ }", "2011", "White", "Male", "76.6", "870.2" ]
+, [ "row-9q2m~prba_gvit", "00000000-0000-0000-0D2E-FE00E8E58AC0", 0, 1570577236, null, 1570577236, null, "{ }", "2012", "White", "Male", "76.7", "860.0" ]
+, [ "row-qqk4.wg7v~rc9j", "00000000-0000-0000-354B-95DAB2CF289A", 0, 1570577236, null, 1570577236, null, "{ }", "2013", "White", "Male", "76.7", "859.2" ]
+, [ "row-xuqx.f7za~i26k", "00000000-0000-0000-102C-10D2ED506E5A", 0, 1570577236, null, 1570577236, null, "{ }", "2014", "White", "Male", "76.7", "853.4" ]
+, [ "row-sqan~ss2q.eynr", "00000000-0000-0000-501E-90CB81078B4A", 0, 1570577236, null, 1570577236, null, "{ }", "2015", "White", "Male", "76.6", "861.9" ]
+, [ "row-j8vs~s58r.bwkx", "00000000-0000-0000-533D-2E2BAF25BABD", 0, 1570577236, null, 1570577236, null, "{ }", "2016", "White", "Male", "76.4", "858.9" ]
+, [ "row-e9u2~daji.mi6m", "00000000-0000-0000-AB10-FE351D14B2A1", 0, 1570577236, null, 1570577236, null, "{ }", "2017", "White", "Male", "76.4", "863.4" ]
+ ]
+}
